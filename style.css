@@ -1,5 +1,10 @@
+/* ===== 基本 ===== */
 body {
-    font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
+    background: #f4fbf6;
+    /* 淡いグリーン */
+    color: #2f4f3a;
+    font-family: system-ui, -apple-system, "Noto Sans JP",
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .wrap {
@@ -8,8 +13,51 @@ body {
     padding: 16px;
 }
 
-#q {
+/* ===== タイトル ===== */
+h1 {
+    color: #2e7d32;
+    /* 深めのグリーン */
+    margin-bottom: 16px;
+}
+
+/* ===== 検索ボックス ===== */
+#q,
+input[type="search"] {
     width: 100%;
-    padding: 10px;
+    padding: 10px 12px;
     font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #c8e6c9;
+    background: #fffef6;
+    /* 淡い黄色 */
+}
+
+input[type="search"]:focus {
+    outline: none;
+    border-color: #81c784;
+    background: #ffffff;
+}
+
+/* ===== ステータス表示 ===== */
+.status {
+    margin: 10px 0;
+    font-weight: 600;
+    color: #558b2f;
+    /* 黄緑 */
+}
+
+.status small {
+    font-weight: 400;
+    color: #6d7f6f;
+}
+
+/* ===== 検索結果 ===== */
+#list li {
+    background: #ffffff;
+    border-left: 6px solid #aed581;
+    /* 春グリーン */
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    line-height: 1.5;
 }
