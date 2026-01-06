@@ -39,10 +39,27 @@ async function main() {
     status.textContent = `読み込み完了: ${terms.length}語`;
     render(terms);
 
-    q.addEventListener("input", apply);
+    // 🔽 URL ?q= から検索語を復元（termsが入ってから！）
+    const params = new URLSearchParams(location.search);
+    const qFromUrl = params.get("q");
+    if (qFromUrl) {
+        q.value = qFromUrl;
+        apply();
+    }
+
+    q.addEventListener("input", () => {
+        apply();
+
+        // 🔽 検索語をURLに反映
+        const params = new URLSearchParams();
+        if (q.value) params.set("q", q.value);
+        history.replaceState(null, "", "?" + params.toString());
+    });
 }
+
 
 main().catch(e => {
     console.error(e);
     status.textContent = "terms.json の読み込みに失敗しました";
 });
+
