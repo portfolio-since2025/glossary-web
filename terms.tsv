@@ -1,0 +1,603 @@
+key	meaning	note
+CPU	Central Processing Unit	コンピュータの中枢で演算と制御を行う
+GPU	Graphics Processing Unit	画像処理に特化したプロセッサ
+RAM	Random Access Memory	作業中のデータを一時的に保存する記憶装置
+ROM	Read Only Memory	電源を切っても消えない記憶装置
+OS	Operating System	ハードウェアとソフトウェアを管理する基本ソフト
+API	Application Programming Interface	ソフトウェア同士をつなぐ仕組み
+DB	Database	データを体系的に保存・管理する仕組み
+RDB	Relational Database	表形式でデータを管理するデータベース
+SQL	Structured Query Language	データベース操作用の言語
+JVM	Java Virtual Machine	Javaプログラムを実行する仮想マシン
+HTTP	Hypertext Transfer Protocol	Web通信の基本プロトコル
+HTTPS	Hypertext Transfer Protocol Secure	暗号化されたHTTP通信
+TCP	Transmission Control Protocol	信頼性の高い通信方式
+UDP	User Datagram Protocol	高速だが信頼性の低い通信方式
+IP	Internet Protocol	ネットワーク上の住所を管理する仕組み
+DNS	Domain Name System	ドメイン名をIPアドレスに変換する
+URL	Uniform Resource Locator	Web上の資源の場所を示す
+LAN	Local Area Network	限定された範囲のネットワーク
+WAN	Wide Area Network	広域ネットワーク
+MAC	Media Access Control	ネットワーク機器固有の識別番号
+HTML	HyperText Markup Language	Webページの構造を定義する言語
+CSS	Cascading Style Sheets	Webページの見た目を指定する
+JavaScript	JavaScript	Webページに動きを付ける言語
+IDE	Integrated Development Environment	開発を支援する統合環境
+Git	Git	分散型バージョン管理システム
+GitHub	GitHub	Gitを利用したソースコード共有サービス
+OSS	Open Source Software	ソースコードが公開されているソフト
+UML	Unified Modeling Language	システム設計を表現する図法
+ER図	Entity Relationship Diagram	データベース設計用の図
+正規化	Normalization	データの重複や不整合を防ぐ設計手法
+主キー	Primary Key	レコードを一意に識別するキー
+外部キー	Foreign Key	他の表と関連付けるキー
+トランザクション	Transaction	一連の処理をまとめた単位
+ACID	ACID	トランザクションの4特性
+排他制御	Exclusive Control	同時アクセスによる不整合を防ぐ仕組み
+デッドロック	Deadlock	互いに処理が進まなくなる状態
+アルゴリズム	Algorithm	問題を解決するための手順
+擬似言語	Pseudocode	アルゴリズムを表す簡易記法
+計算量	Time Complexity	処理に必要な時間の指標
+スタック	Stack	後入れ先出しのデータ構造
+キュー	Queue	先入れ先出しのデータ構造
+配列	Array	同じ型のデータを並べた構造
+リスト	List	要素を順に管理するデータ構造
+探索	Search	目的のデータを見つける処理
+線形探索	Linear Search	先頭から順に探す探索方法
+二分探索	Binary Search	範囲を半分に分けて探す探索方法
+ソート	Sort	データを順序付ける処理
+バブルソート	Bubble Sort	隣同士を比較する単純なソート
+クイックソート	Quick Sort	基準値で分割する高速なソート
+ハッシュ	Hash	データを高速に検索する仕組み
+暗号化	Encryption	データを第三者に読めなくする技術
+共通鍵暗号	Symmetric Key Encryption	同じ鍵で暗号化・復号する方式
+公開鍵暗号	Public Key Encryption	公開鍵と秘密鍵を使う暗号方式
+認証	Authentication	利用者が正しいか確認する
+認可	Authorization	操作の権限を与えること
+ファイアウォール	Firewall	不正通信を遮断する仕組み
+マルウェア	Malware	悪意のあるソフトウェア
+ウイルス	Virus	自己増殖する不正プログラム
+バックアップ	Backup	データを予備として保存する
+フェイルセーフ	Fail Safe	故障時も安全を保つ設計
+冗長化	Redundancy	故障に備えて予備を持つ構成
+クラウド	Cloud	インターネット経由で資源を利用する形態
+SaaS	Software as a Service	ソフトウェアをサービスとして提供
+PaaS	Platform as a Service	アプリ実行環境を提供するサービス
+IaaS	Infrastructure as a Service	仮想サーバなど基盤を提供する
+ネットワーク	Network	複数の機器を接続して通信する仕組み
+OSI参照モデル	OSI Reference Model	通信機能を7階層で整理したモデル
+TCP/IPモデル	TCP/IP Model	インターネットで使われる通信モデル
+物理層	Physical Layer	電気信号やコネクタなど物理的接続
+データリンク層	Data Link Layer	隣接ノード間の通信制御
+ネットワーク層	Network Layer	IPアドレスによる経路制御
+トランスポート層	Transport Layer	通信の信頼性制御
+セッション層	Session Layer	通信の開始と終了を管理
+プレゼンテーション層	Presentation Layer	データ形式や暗号化
+アプリケーション層	Application Layer	アプリケーション向け通信機能
+IPアドレス	IP Address	ネットワーク上の識別番号
+IPv4	IPv4	32ビットのIPアドレス方式
+IPv6	IPv6	128ビットのIPアドレス方式
+サブネットマスク	Subnet Mask	ネットワーク部とホスト部の識別
+CIDR	CIDR	IPアドレスを効率的に割り当てる方式
+グローバルIP	Global IP Address	インターネット上で一意のIP
+プライベートIP	Private IP Address	組織内で使用するIPアドレス
+NAT	NAT	プライベートIPとグローバルIPの変換
+ルータ	Router	異なるネットワークを中継する機器
+スイッチ	Switch	同一ネットワーク内で通信を中継
+ハブ	Hub	受信データを全ポートに転送する機器
+MACアドレス	MAC Address	ネットワーク機器固有の識別子
+ARP	ARP	IPアドレスからMACアドレスを取得
+ICMP	ICMP	通信エラー通知用プロトコル
+Ping	Ping	通信確認用コマンド
+TCP	TCP	信頼性のある通信プロトコル
+UDP	UDP	高速だが信頼性の低い通信プロトコル
+ポート番号	Port Number	アプリケーションを識別する番号
+HTTP	HTTP	Web通信に使用されるプロトコル
+HTTPS	HTTPS	暗号化されたHTTP通信
+FTP	FTP	ファイル転送用プロトコル
+SFTP	SFTP	安全なファイル転送プロトコル
+SMTP	SMTP	メール送信用プロトコル
+POP3	POP3	メール受信用プロトコル
+IMAP	IMAP	サーバ上でメール管理する受信方式
+DNS	DNS	ドメイン名をIPアドレスに変換
+DHCP	DHCP	IPアドレスを自動割当する仕組み
+SNMP	SNMP	ネットワーク機器管理用プロトコル
+Telnet	Telnet	リモート接続用（暗号化なし）
+SSH	SSH	暗号化されたリモート接続
+LAN	LAN	限定範囲のネットワーク
+WAN	WAN	広域ネットワーク
+MAN	MAN	都市規模ネットワーク
+VPN	VPN	仮想的な専用通信網
+インターネット	Internet	世界規模のネットワーク
+イントラネット	Intranet	組織内専用ネットワーク
+エクストラネット	Extranet	外部と安全に接続するネットワーク
+帯域幅	Bandwidth	通信速度の上限
+スループット	Throughput	実際の通信速度
+レイテンシ	Latency	通信遅延時間
+パケット	Packet	分割された通信データ単位
+フレーム	Frame	データリンク層の通信単位
+MTU	MTU	一度に送信できる最大サイズ
+再送制御	Retransmission	通信失敗時に再送する制御
+フロー制御	Flow Control	受信側に合わせて送信速度調整
+輻輳制御	Congestion Control	ネットワーク混雑を防ぐ制御
+ブロードキャスト	Broadcast	全端末への同時送信
+マルチキャスト	Multicast	特定グループへの送信
+ユニキャスト	Unicast	特定相手への送信
+QoS	QoS	通信品質を制御する仕組み
+ファイアウォール	Firewall	不正通信を遮断する装置
+DMZ	DMZ	外部公開用の中間ネットワーク
+プロキシ	Proxy	通信を中継するサーバ
+リバースプロキシ	Reverse Proxy	サーバ側で通信を中継
+ロードバランサ	Load Balancer	通信負荷を分散する装置
+データベース	Database	データを体系的に保存・管理する仕組み
+DBMS	Database Management System	データベース管理ソフト
+RDB	Relational Database	表形式で管理するデータベース
+RDBMS	Relational DBMS	関係データベース管理システム
+テーブル	Table	行と列で構成されるデータ集合
+レコード	Record	テーブルの1行
+フィールド	Field	テーブルの1列
+カラム	Column	フィールドと同義
+行	Row	レコードと同義
+列	Column	フィールドと同義
+主キー	Primary Key	レコードを一意に識別するキー
+外部キー	Foreign Key	他テーブルの主キーを参照するキー
+複合キー	Composite Key	複数列で構成されるキー
+候補キー	Candidate Key	主キー候補となるキー
+一意キー	Unique Key	重複を許さないキー
+NULL	NULL	値が存在しないこと
+制約	Constraint	データの整合性を保つ規則
+NOT NULL	NOT NULL	空値を禁止する制約
+参照整合性	Referential Integrity	外部キーの整合性
+正規化	Normalization	データの重複を排除する設計手法
+第1正規形	First Normal Form	繰り返し属性を排除
+第2正規形	Second Normal Form	部分関数従属を排除
+第3正規形	Third Normal Form	推移関数従属を排除
+非正規化	Denormalization	性能向上のため正規化を崩す
+ER図	Entity Relationship Diagram	データ構造を表す図
+エンティティ	Entity	管理対象となる実体
+属性	Attribute	エンティティの性質
+リレーション	Relation	テーブル間の関係
+カーディナリティ	Cardinality	関係の多重度
+SQL	Structured Query Language	DB操作用言語
+DDL	Data Definition Language	表定義を行うSQL
+DML	Data Manipulation Language	データ操作を行うSQL
+DCL	Data Control Language	権限制御を行うSQL
+SELECT	SELECT	データ検索
+INSERT	INSERT	データ追加
+UPDATE	UPDATE	データ更新
+DELETE	DELETE	データ削除
+WHERE	WHERE	条件指定
+ORDER BY	ORDER BY	並び替え
+GROUP BY	GROUP BY	集約単位指定
+HAVING	HAVING	集約後条件指定
+JOIN	JOIN	テーブル結合
+INNER JOIN	INNER JOIN	一致する行のみ結合
+LEFT JOIN	LEFT JOIN	左表基準で結合
+RIGHT JOIN	RIGHT JOIN	右表基準で結合
+FULL JOIN	FULL JOIN	両表の全行を結合
+サブクエリ	Subquery	SQL内に書くSQL
+ビュー	View	仮想テーブル
+インデックス	Index	検索高速化用構造
+B-tree	B-tree	代表的なインデックス構造
+ハッシュインデックス	Hash Index	ハッシュ方式の索引
+トランザクション	Transaction	一連の処理単位
+ACID	ACID	原子性・一貫性・独立性・耐久性
+コミット	Commit	処理を確定
+ロールバック	Rollback	処理を取り消す
+排他制御	Locking	同時更新を防ぐ制御
+ロック	Lock	排他制御の仕組み
+デッドロック	Deadlock	互いに待ち続ける状態
+分離レベル	Isolation Level	同時実行制御の厳密さ
+READ UNCOMMITTED	Read Uncommitted	最も弱い分離レベル
+READ COMMITTED	Read Committed	確定データのみ読み取り
+REPEATABLE READ	Repeatable Read	再読込でも同一結果
+SERIALIZABLE	Serializable	最も厳密な分離レベル
+バックアップ	Backup	データの予備保存
+リストア	Restore	バックアップから復元
+レプリケーション	Replication	データ複製
+シャーディング	Sharding	データ分割配置
+スキーマ	Schema	データベースの構造定義
+情報セキュリティ	Information Security	情報を安全に守るための考え方
+機密性	Confidentiality	許可された人だけが情報にアクセスできる性質
+完全性	Integrity	情報が正確で改ざんされていない性質
+可用性	Availability	必要なときに情報を利用できる性質
+CIA	CIA Triad	機密性・完全性・可用性の3要素
+認証	Authentication	利用者が正しいか確認すること
+認可	Authorization	利用者に操作権限を与えること
+アクセス制御	Access Control	利用者の操作を制限する仕組み
+多要素認証	MFA	複数の要素を用いた認証方式
+パスワード	Password	本人確認のための秘密情報
+ワンタイムパスワード	OTP	一度だけ有効なパスワード
+生体認証	Biometric Authentication	身体的特徴による認証
+公開鍵暗号	Public Key Cryptography	公開鍵と秘密鍵を用いる暗号方式
+共通鍵暗号	Symmetric Key Cryptography	同一鍵で暗号化と復号を行う方式
+ハッシュ関数	Hash Function	不可逆な変換を行う関数
+デジタル署名	Digital Signature	改ざん防止と本人確認の仕組み
+SSL	SSL	通信を暗号化する仕組み
+TLS	TLS	SSLを改良した暗号化通信プロトコル
+HTTPS	HTTPS	TLSを用いたHTTP通信
+VPN	VPN	仮想的な専用通信路
+IPsec	IPsec	IPレベルで通信を暗号化
+ファイアウォール	Firewall	不正な通信を遮断する装置
+パケットフィルタリング	Packet Filtering	通信内容を条件で制御
+アプリケーションゲートウェイ	Application Gateway	アプリ層で通信を制御
+DMZ	DMZ	外部公開用の中間ネットワーク
+IDS	IDS	侵入検知システム
+IPS	IPS	侵入防止システム
+WAF	WAF	Webアプリ専用防御装置
+マルウェア	Malware	悪意のあるソフトウェアの総称
+ウイルス	Virus	自己増殖するマルウェア
+ワーム	Worm	ネットワーク経由で拡散するマルウェア
+トロイの木馬	Trojan Horse	有用なソフトを装う不正プログラム
+スパイウェア	Spyware	情報を盗み出すマルウェア
+ランサムウェア	Ransomware	身代金を要求するマルウェア
+標的型攻撃	Targeted Attack	特定組織を狙う攻撃
+DoS攻撃	DoS	サービス停止を狙う攻撃
+DDoS攻撃	DDoS	多数端末からのDoS攻撃
+フィッシング	Phishing	偽装して情報を盗む攻撃
+ソーシャルエンジニアリング	Social Engineering	人の心理を突く攻撃
+クロスサイトスクリプティング	XSS	Web脆弱性の一種
+SQLインジェクション	SQL Injection	SQLを不正実行させる攻撃
+CSRF	CSRF	意図しない操作をさせる攻撃
+ブルートフォース攻撃	Brute Force	総当たりでパスワードを試す攻撃
+辞書攻撃	Dictionary Attack	単語リストを使う攻撃
+脆弱性	Vulnerability	攻撃される弱点
+ゼロデイ攻撃	Zero-day Attack	修正前の脆弱性を狙う攻撃
+セキュリティパッチ	Security Patch	脆弱性修正プログラム
+アップデート	Update	ソフトウェアの更新
+ログ	Log	操作やイベントの記録
+監査ログ	Audit Log	不正検知用のログ
+インシデント	Incident	セキュリティ事故
+インシデント対応	Incident Response	事故発生時の対応
+リスク	Risk	被害が発生する可能性
+リスク分析	Risk Analysis	リスクを評価する作業
+リスク対策	Risk Treatment	リスクを低減する対応
+BCP	Business Continuity Plan	事業継続計画
+DR	Disaster Recovery	災害復旧対策
+バックアップ	Backup	データの予備保存
+アクセスログ	Access Log	アクセス履歴の記録
+最小権限の原則	Principle of Least Privilege	必要最小限の権限付与
+アルゴリズム	Algorithm	問題を解決するための手順
+処理手順	Procedure	処理の流れを示したもの
+擬似言語	Pseudocode	アルゴリズムを表す簡易記法
+フローチャート	Flowchart	処理手順を図で表したもの
+入力	Input	アルゴリズムに与えるデータ
+出力	Output	処理結果として得られるデータ
+計算量	Computational Complexity	処理に必要な資源量の指標
+時間計算量	Time Complexity	処理時間の増加傾向
+空間計算量	Space Complexity	使用メモリ量の増加傾向
+ビッグオー記法	Big-O Notation	計算量を表す記法
+最悪計算量	Worst Case	最も時間がかかる場合
+平均計算量	Average Case	平均的な処理時間
+最良計算量	Best Case	最も早く終わる場合
+線形探索	Linear Search	先頭から順に探す探索方法
+二分探索	Binary Search	範囲を半分に分けて探す探索
+探索	Search	目的のデータを見つける処理
+ソート	Sort	データを並び替える処理
+安定ソート	Stable Sort	同値要素の順序を保つソート
+不安定ソート	Unstable Sort	同値要素の順序を保たないソート
+バブルソート	Bubble Sort	隣接要素を交換する単純なソート
+選択ソート	Selection Sort	最小値を選んで並べるソート
+挿入ソート	Insertion Sort	挿入しながら整列するソート
+クイックソート	Quick Sort	分割統治を用いる高速ソート
+マージソート	Merge Sort	分割して統合するソート
+ヒープソート	Heap Sort	ヒープ構造を用いたソート
+配列	Array	連続領域に格納するデータ構造
+リスト	List	要素を順につなげた構造
+連結リスト	Linked List	ポインタで要素をつなぐリスト
+スタック	Stack	後入れ先出しの構造
+キュー	Queue	先入れ先出しの構造
+デック	Deque	両端から追加削除できるキュー
+木構造	Tree	階層関係を持つデータ構造
+二分木	Binary Tree	各ノードが2子まで持つ木
+二分探索木	Binary Search Tree	大小関係を持つ二分木
+平衡木	Balanced Tree	高さを抑えた木構造
+ヒープ	Heap	特定条件を満たす完全二分木
+グラフ	Graph	点と辺で関係を表す構造
+ノード	Node	データ構造の要素
+エッジ	Edge	ノード間の接続
+有向グラフ	Directed Graph	向きを持つグラフ
+無向グラフ	Undirected Graph	向きを持たないグラフ
+隣接リスト	Adjacency List	グラフ表現方法の一つ
+隣接行列	Adjacency Matrix	行列で表すグラフ構造
+再帰	Recursion	処理の中で自分自身を呼ぶ手法
+再帰呼出し	Recursive Call	関数が自分を呼び出すこと
+終了条件	Base Case	再帰を終える条件
+分割統治法	Divide and Conquer	問題を分割して解く手法
+動的計画法	Dynamic Programming	部分問題の結果を再利用
+貪欲法	Greedy Algorithm	局所最適を選択する手法
+バックトラック	Backtracking	条件を満たさない場合に戻る探索
+全探索	Brute Force	全ての組合せを調べる方法
+ハッシュ	Hash	データを高速に検索する仕組み
+ハッシュ関数	Hash Function	キーを数値に変換する関数
+ハッシュ表	Hash Table	ハッシュを用いた表構造
+衝突	Collision	同じハッシュ値になること
+オープンアドレス法	Open Addressing	衝突解決法の一つ
+チェイン法	Chaining	衝突時にリストで管理
+キューイング理論	Queueing Theory	待ち行列を扱う理論
+オペレーティングシステム	Operating System	ハードウェアとアプリを管理する基本ソフト
+OS	Operating System	オペレーティングシステムの略
+カーネル	Kernel	OSの中核部分
+ユーザモード	User Mode	制限付きで動作する実行モード
+カーネルモード	Kernel Mode	ハードウェア制御が可能な実行モード
+プロセス	Process	実行中のプログラム
+スレッド	Thread	プロセス内の実行単位
+マルチプロセス	Multiprocess	複数プロセスを同時実行
+マルチスレッド	Multithread	複数スレッドを同時実行
+プリエンプション	Preemption	実行中プロセスを強制中断
+スケジューリング	Scheduling	CPU割当を制御する仕組み
+ラウンドロビン	Round Robin	順番にCPUを割り当てる方式
+優先度スケジューリング	Priority Scheduling	優先度に基づく割当方式
+コンテキストスイッチ	Context Switch	実行状態の切替
+割込み	Interrupt	処理を一時中断させる信号
+例外	Exception	異常事態発生時の制御移行
+システムコール	System Call	アプリからOS機能を呼ぶ仕組み
+メモリ管理	Memory Management	主記憶を管理する機能
+主記憶	Main Memory	CPUが直接アクセスする記憶装置
+補助記憶	Auxiliary Storage	HDDやSSDなどの記憶装置
+仮想記憶	Virtual Memory	補助記憶を主記憶のように扱う仕組み
+ページ	Page	仮想記憶の管理単位
+ページング	Paging	ページ単位で管理する方式
+セグメンテーション	Segmentation	論理単位で管理する方式
+スワップ	Swap	補助記憶と主記憶を入替える処理
+キャッシュ	Cache	高速アクセス用の一時記憶
+キャッシュメモリ	Cache Memory	CPUと主記憶間の高速記憶
+ライトスルー	Write Through	即時に主記憶へ反映する方式
+ライトバック	Write Back	後で主記憶へ反映する方式
+TLB	TLB	アドレス変換を高速化するバッファ
+ファイルシステム	File System	ファイル管理方式
+ディレクトリ	Directory	ファイルをまとめる仕組み
+パス	Path	ファイルの場所を示す表記
+絶対パス	Absolute Path	ルートから指定するパス
+相対パス	Relative Path	現在位置基準のパス
+アクセス権	Access Permission	ファイル操作の許可設定
+読み取り	Read	ファイル内容を読む権限
+書き込み	Write	ファイル内容を変更する権限
+実行	Execute	プログラム実行権限
+デバイスドライバ	Device Driver	周辺機器制御用ソフト
+I/O	Input Output	入出力処理
+バッファ	Buffer	データを一時的に蓄える領域
+スプーリング	Spooling	入出力を効率化する仕組み
+CPU	Central Processing Unit	演算と制御を行う中枢装置
+クロック周波数	Clock Frequency	CPU動作速度の指標
+コア	Core	CPU内の処理単位
+マルチコア	Multicore	複数コアを持つCPU
+パイプライン	Pipeline	処理を分割して高速化
+RISC	RISC	簡素な命令セットCPU
+CISC	CISC	複雑な命令セットCPU
+GPU	GPU	画像処理に特化したプロセッサ
+FPU	FPU	浮動小数点演算装置
+RAM	RAM	作業用の揮発性メモリ
+ROM	ROM	不揮発性メモリ
+DRAM	DRAM	主記憶に使われるメモリ
+SRAM	SRAM	高速キャッシュ用メモリ
+HDD	Hard Disk Drive	磁気ディスク装置
+SSD	Solid State Drive	半導体記憶装置
+セクタ	Sector	ディスクの最小記憶単位
+ブロック	Block	ファイルシステムの管理単位
+システム	System	目的を達成するための構成要素の集合
+情報システム	Information System	情報処理を行うシステム
+業務システム	Business System	業務を支援するためのシステム
+クライアント	Client	サービスを利用する側
+サーバ	Server	サービスを提供する側
+クライアントサーバ方式	Client Server Model	役割分担によるシステム構成
+三層構造	Three-tier Architecture	プレゼン・アプリ・DBの3層構成
+プレゼンテーション層	Presentation Layer	画面やUIを担当
+アプリケーション層	Application Layer	業務ロジックを担当
+データ層	Data Layer	データ管理を担当
+集中処理	Centralized Processing	一箇所で処理を行う方式
+分散処理	Distributed Processing	処理を分散して行う方式
+クラスタ	Cluster	複数サーバを一体として動作
+スケールアップ	Scale Up	性能向上のため機器を強化
+スケールアウト	Scale Out	台数を増やして性能向上
+冗長化	Redundancy	故障に備えて予備を持つ構成
+フェイルオーバー	Failover	障害時に自動切替
+フェイルバック	Failback	復旧後に元へ戻す
+ロードバランサ	Load Balancer	負荷を分散する装置
+ホットスタンバイ	Hot Standby	即時切替可能な待機構成
+コールドスタンバイ	Cold Standby	起動が必要な待機構成
+可用性	Availability	利用可能な度合い
+信頼性	Reliability	安定して動作する性質
+保守性	Maintainability	修正や保守のしやすさ
+拡張性	Scalability	将来拡張のしやすさ
+要件定義	Requirements Definition	システム要件を明確化
+機能要件	Functional Requirements	システムの機能面要件
+非機能要件	Non-functional Requirements	性能や信頼性などの要件
+基本設計	Basic Design	外部仕様を定める設計
+詳細設計	Detailed Design	内部処理を定める設計
+内部設計	Internal Design	詳細設計と同義
+外部設計	External Design	基本設計と同義
+プログラミング	Programming	ソースコードを書く工程
+コーディング	Coding	プログラムを記述する作業
+ビルド	Build	ソースを実行形式に変換
+結合テスト	Integration Test	モジュール間の動作確認
+単体テスト	Unit Test	個々のモジュールを検証
+システムテスト	System Test	全体としての検証
+受入テスト	Acceptance Test	利用者による確認
+ブラックボックステスト	Black-box Test	内部構造を考慮しないテスト
+ホワイトボックステスト	White-box Test	内部構造を考慮するテスト
+テストケース	Test Case	テスト内容をまとめたもの
+デバッグ	Debug	バグを修正する作業
+レビュー	Review	成果物を確認する作業
+ウォーターフォール	Waterfall Model	工程を順に進める開発手法
+Vモデル	V-model	テスト対応を重視したモデル
+アジャイル	Agile	柔軟に進める開発手法
+スクラム	Scrum	代表的なアジャイル手法
+スプリント	Sprint	短期間の開発サイクル
+バックログ	Backlog	作業項目の一覧
+リリース	Release	システム公開
+移行	Migration	旧システムから切替
+運用	Operation	稼働中システム管理
+保守	Maintenance	修正・改善作業
+障害対応	Incident Handling	障害発生時の対応
+変更管理	Change Management	変更内容を管理
+構成管理	Configuration Management	構成情報を管理
+バージョン管理	Version Control	履歴を管理する仕組み
+クラウドコンピューティング	Cloud Computing	ネットワーク経由でIT資源を利用する形態
+オンプレミス	On-Premises	自社内に機器を設置して運用
+パブリッククラウド	Public Cloud	外部事業者が提供するクラウド
+プライベートクラウド	Private Cloud	特定組織専用のクラウド
+ハイブリッドクラウド	Hybrid Cloud	複数クラウドを組み合わせる構成
+マルチクラウド	Multi Cloud	複数事業者のクラウドを利用
+仮想化	Virtualization	物理資源を論理的に分割する技術
+ハイパーバイザ	Hypervisor	仮想マシンを管理するソフト
+ホストOS	Host OS	仮想環境の基盤となるOS
+ゲストOS	Guest OS	仮想マシン上で動作するOS
+仮想マシン	Virtual Machine	仮想的な計算機
+コンテナ	Container	軽量な仮想実行環境
+Docker	Docker	代表的なコンテナ技術
+Kubernetes	Kubernetes	コンテナ管理ツール
+VMware	VMware	仮想化ソフトウェア
+仮想CPU	Virtual CPU	仮想マシン用CPU
+仮想メモリ	Virtual Memory	仮想環境で使うメモリ
+仮想ストレージ	Virtual Storage	仮想化された記憶装置
+スナップショット	Snapshot	仮想環境の状態保存
+ライブマイグレーション	Live Migration	稼働中の仮想マシン移動
+クラウドサービス	Cloud Service	クラウド上で提供されるサービス
+IaaS	IaaS	仮想サーバなど基盤提供
+PaaS	PaaS	アプリ実行環境提供
+SaaS	SaaS	ソフトウェア提供形態
+FaaS	FaaS	関数単位で実行するサービス
+サーバレス	Serverless	サーバ管理不要の実行形態
+仮想ネットワーク	Virtual Network	仮想的なネットワーク構成
+VPC	Virtual Private Cloud	仮想専用ネットワーク
+サブネット	Subnet	ネットワーク分割単位
+セキュリティグループ	Security Group	通信制御ルール
+IAM	IAM	ユーザと権限の管理
+リージョン	Region	クラウド拠点の地域
+アベイラビリティゾーン	Availability Zone	障害分離された拠点
+オートスケーリング	Auto Scaling	負荷に応じた自動増減
+ロードバランシング	Load Balancing	通信負荷分散
+冗長構成	Redundant Configuration	障害対策構成
+バックアップ	Backup	データの予備保存
+スナップショットバックアップ	Snapshot Backup	状態保存によるバックアップ
+DR	Disaster Recovery	災害復旧対策
+BCP	Business Continuity Plan	事業継続計画
+クラウドストレージ	Cloud Storage	オンライン記憶領域
+オブジェクトストレージ	Object Storage	オブジェクト単位で管理
+ブロックストレージ	Block Storage	ブロック単位の記憶装置
+ファイルストレージ	File Storage	ファイル共有型ストレージ
+耐障害性	Fault Tolerance	障害に耐える性質
+可用性	Availability	利用可能な度合い
+SLA	SLA	サービス品質保証
+従量課金	Pay-as-you-go	使った分だけ支払う方式
+リソース	Resource	CPUやメモリなどの資源
+プロビジョニング	Provisioning	資源の割当
+Infrastructure as Code	IaC	コードによる構成管理
+Terraform	Terraform	IaCツール
+CloudFormation	CloudFormation	AWSのIaCツール
+モニタリング	Monitoring	稼働状況の監視
+ログ管理	Log Management	ログの収集・管理
+メトリクス	Metrics	性能指標
+ソフトウェア工学	Software Engineering	体系的にソフトウェアを開発する学問
+ソフトウェア	Software	プログラムと関連データの総称
+ハードウェア	Hardware	物理的な機器
+ライフサイクル	Software Life Cycle	開発から廃棄までの流れ
+要求分析	Requirement Analysis	要求を整理・分析する工程
+要件定義	Requirements Definition	システム要件を明確化
+基本設計	Basic Design	外部仕様を定める設計
+詳細設計	Detailed Design	内部仕様を定める設計
+外部設計	External Design	基本設計と同義
+内部設計	Internal Design	詳細設計と同義
+モジュール	Module	独立した機能単位
+コンポーネント	Component	再利用可能な部品
+インタフェース	Interface	接続点の仕様
+API	API	機能を外部に公開する仕組み
+再利用	Reuse	既存部品の活用
+保守性	Maintainability	修正しやすさ
+可読性	Readability	コードの読みやすさ
+拡張性	Scalability	機能追加のしやすさ
+結合度	Coupling	モジュール間の依存度
+凝集度	Cohesion	モジュール内の関連度
+低結合	Loose Coupling	依存関係が弱い設計
+高凝集	High Cohesion	役割が明確な設計
+抽象化	Abstraction	本質のみを取り出す
+カプセル化	Encapsulation	内部を隠蔽する設計
+情報隠蔽	Information Hiding	内部実装を隠す原則
+継承	Inheritance	機能を引き継ぐ仕組み
+多態性	Polymorphism	同一操作で異なる動作
+オブジェクト指向	Object-Oriented	オブジェクト中心設計
+クラス	Class	オブジェクトの設計図
+インスタンス	Instance	クラスから生成された実体
+メソッド	Method	クラスの振る舞い
+属性	Attribute	オブジェクトの性質
+UML	UML	設計を表現する図法
+クラス図	Class Diagram	クラス構造を表す
+シーケンス図	Sequence Diagram	処理の流れを表す
+ユースケース図	Use Case Diagram	利用者視点の機能図
+状態遷移図	State Transition Diagram	状態変化を表す図
+デザインパターン	Design Pattern	設計の定石
+MVC	MVC	モデル・ビュー・コントローラ分離
+Singleton	Singleton	唯一のインスタンスを持つ
+Factory	Factory	生成処理をまとめる
+Observer	Observer	状態変化を通知
+Strategy	Strategy	アルゴリズム切替
+Adapter	Adapter	既存IFを変換
+Facade	Facade	複雑さを隠す窓口
+依存性注入	Dependency Injection	依存関係を外部から与える
+DI	DI	依存性注入の略
+SOLID原則	SOLID Principles	設計の5原則
+単一責任原則	SRP	クラスは1責任
+オープンクローズド原則	OCP	拡張に開き修正に閉じる
+リスコフ置換原則	LSP	派生は基底と置換可能
+インタフェース分離原則	ISP	必要なIFだけ持つ
+依存関係逆転原則	DIP	抽象に依存する
+リファクタリング	Refactoring	外部仕様を変えず改善
+技術的負債	Technical Debt	後回しによる負債
+テスト	Test	システムが正しく動作するか確認する作業
+品質	Quality	要求を満たす度合い
+品質特性	Quality Characteristics	品質を評価する観点
+機能性	Functionality	要求された機能を満たす性質
+信頼性	Reliability	安定して動作する性質
+使用性	Usability	使いやすさ
+効率性	Efficiency	資源を無駄なく使う性質
+保守性	Maintainability	修正や改善のしやすさ
+移植性	Portability	他環境へ移しやすさ
+テスト計画	Test Plan	テスト方針や範囲の計画
+テスト設計	Test Design	テスト内容の設計
+テストケース	Test Case	テストの入力と期待結果
+単体テスト	Unit Test	個々のモジュールのテスト
+結合テスト	Integration Test	モジュール間のテスト
+システムテスト	System Test	全体動作のテスト
+受入テスト	Acceptance Test	利用者が行う最終確認
+回帰テスト	Regression Test	修正後の再テスト
+ブラックボックステスト	Black-box Test	内部構造を考慮しないテスト
+ホワイトボックステスト	White-box Test	内部構造を考慮するテスト
+同値分割	Equivalence Partitioning	入力をグループ化する手法
+境界値分析	Boundary Value Analysis	境界条件を重点的にテスト
+網羅率	Coverage	テストがどれだけ実行されたか
+命令網羅	Statement Coverage	全命令を実行
+分岐網羅	Branch Coverage	全分岐を実行
+条件網羅	Condition Coverage	全条件を評価
+パス網羅	Path Coverage	全経路を実行
+バグ	Bug	プログラムの不具合
+欠陥	Defect	仕様との差異
+障害	Fault	運用中に発生する不具合
+デバッグ	Debug	バグを修正する作業
+ログ	Log	処理履歴の記録
+エラーログ	Error Log	エラー情報の記録
+監視	Monitoring	システム状態の監視
+アラート	Alert	異常通知
+性能テスト	Performance Test	処理性能の評価
+負荷テスト	Load Test	高負荷時の動作確認
+ストレステスト	Stress Test	限界超過時の動作確認
+可用性テスト	Availability Test	停止しにくさの確認
+耐障害性	Fault Tolerance	障害に耐える性質
+冗長化	Redundancy	故障に備えた構成
+バックアップ	Backup	データの予備保存
+リストア	Restore	バックアップから復元
+運用	Operation	システム稼働中の管理
+保守	Maintenance	修正や改善作業
+運用設計	Operation Design	運用方法の設計
+手順書	Runbook	運用手順をまとめた文書
+障害対応	Incident Response	障害発生時の対応
+インシデント	Incident	運用中の問題事象
+エスカレーション	Escalation	上位担当へ引継ぐこと
+変更管理	Change Management	変更内容の管理
+構成管理	Configuration Management	構成情報の管理
+リリース管理	Release Management	リリースの管理
+SLA	SLA	サービス品質保証
+SLO	SLO	達成目標値
+KPI	KPI	業績評価指標
+メトリクス	Metrics	性能や状態の指標
+運用自動化	Automation	運用作業の自動化

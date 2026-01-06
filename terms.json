@@ -1,0 +1,3012 @@
+[
+  {
+    "key": "CPU",
+    "meaning": "Central Processing Unit",
+    "note": "コンピュータの中枢で演算と制御を行う"
+  },
+  {
+    "key": "GPU",
+    "meaning": "Graphics Processing Unit",
+    "note": "画像処理に特化したプロセッサ"
+  },
+  {
+    "key": "RAM",
+    "meaning": "Random Access Memory",
+    "note": "作業中のデータを一時的に保存する記憶装置"
+  },
+  {
+    "key": "ROM",
+    "meaning": "Read Only Memory",
+    "note": "電源を切っても消えない記憶装置"
+  },
+  {
+    "key": "OS",
+    "meaning": "Operating System",
+    "note": "ハードウェアとソフトウェアを管理する基本ソフト"
+  },
+  {
+    "key": "API",
+    "meaning": "Application Programming Interface",
+    "note": "ソフトウェア同士をつなぐ仕組み"
+  },
+  {
+    "key": "DB",
+    "meaning": "Database",
+    "note": "データを体系的に保存・管理する仕組み"
+  },
+  {
+    "key": "RDB",
+    "meaning": "Relational Database",
+    "note": "表形式でデータを管理するデータベース"
+  },
+  {
+    "key": "SQL",
+    "meaning": "Structured Query Language",
+    "note": "データベース操作用の言語"
+  },
+  {
+    "key": "JVM",
+    "meaning": "Java Virtual Machine",
+    "note": "Javaプログラムを実行する仮想マシン"
+  },
+  {
+    "key": "HTTP",
+    "meaning": "Hypertext Transfer Protocol",
+    "note": "Web通信の基本プロトコル"
+  },
+  {
+    "key": "HTTPS",
+    "meaning": "Hypertext Transfer Protocol Secure",
+    "note": "暗号化されたHTTP通信"
+  },
+  {
+    "key": "TCP",
+    "meaning": "Transmission Control Protocol",
+    "note": "信頼性の高い通信方式"
+  },
+  {
+    "key": "UDP",
+    "meaning": "User Datagram Protocol",
+    "note": "高速だが信頼性の低い通信方式"
+  },
+  {
+    "key": "IP",
+    "meaning": "Internet Protocol",
+    "note": "ネットワーク上の住所を管理する仕組み"
+  },
+  {
+    "key": "DNS",
+    "meaning": "Domain Name System",
+    "note": "ドメイン名をIPアドレスに変換する"
+  },
+  {
+    "key": "URL",
+    "meaning": "Uniform Resource Locator",
+    "note": "Web上の資源の場所を示す"
+  },
+  {
+    "key": "LAN",
+    "meaning": "Local Area Network",
+    "note": "限定された範囲のネットワーク"
+  },
+  {
+    "key": "WAN",
+    "meaning": "Wide Area Network",
+    "note": "広域ネットワーク"
+  },
+  {
+    "key": "MAC",
+    "meaning": "Media Access Control",
+    "note": "ネットワーク機器固有の識別番号"
+  },
+  {
+    "key": "HTML",
+    "meaning": "HyperText Markup Language",
+    "note": "Webページの構造を定義する言語"
+  },
+  {
+    "key": "CSS",
+    "meaning": "Cascading Style Sheets",
+    "note": "Webページの見た目を指定する"
+  },
+  {
+    "key": "JavaScript",
+    "meaning": "JavaScript",
+    "note": "Webページに動きを付ける言語"
+  },
+  {
+    "key": "IDE",
+    "meaning": "Integrated Development Environment",
+    "note": "開発を支援する統合環境"
+  },
+  {
+    "key": "Git",
+    "meaning": "Git",
+    "note": "分散型バージョン管理システム"
+  },
+  {
+    "key": "GitHub",
+    "meaning": "GitHub",
+    "note": "Gitを利用したソースコード共有サービス"
+  },
+  {
+    "key": "OSS",
+    "meaning": "Open Source Software",
+    "note": "ソースコードが公開されているソフト"
+  },
+  {
+    "key": "UML",
+    "meaning": "Unified Modeling Language",
+    "note": "システム設計を表現する図法"
+  },
+  {
+    "key": "ER図",
+    "meaning": "Entity Relationship Diagram",
+    "note": "データベース設計用の図"
+  },
+  {
+    "key": "正規化",
+    "meaning": "Normalization",
+    "note": "データの重複や不整合を防ぐ設計手法"
+  },
+  {
+    "key": "主キー",
+    "meaning": "Primary Key",
+    "note": "レコードを一意に識別するキー"
+  },
+  {
+    "key": "外部キー",
+    "meaning": "Foreign Key",
+    "note": "他の表と関連付けるキー"
+  },
+  {
+    "key": "トランザクション",
+    "meaning": "Transaction",
+    "note": "一連の処理をまとめた単位"
+  },
+  {
+    "key": "ACID",
+    "meaning": "ACID",
+    "note": "トランザクションの4特性"
+  },
+  {
+    "key": "排他制御",
+    "meaning": "Exclusive Control",
+    "note": "同時アクセスによる不整合を防ぐ仕組み"
+  },
+  {
+    "key": "デッドロック",
+    "meaning": "Deadlock",
+    "note": "互いに処理が進まなくなる状態"
+  },
+  {
+    "key": "アルゴリズム",
+    "meaning": "Algorithm",
+    "note": "問題を解決するための手順"
+  },
+  {
+    "key": "擬似言語",
+    "meaning": "Pseudocode",
+    "note": "アルゴリズムを表す簡易記法"
+  },
+  {
+    "key": "計算量",
+    "meaning": "Time Complexity",
+    "note": "処理に必要な時間の指標"
+  },
+  {
+    "key": "スタック",
+    "meaning": "Stack",
+    "note": "後入れ先出しのデータ構造"
+  },
+  {
+    "key": "キュー",
+    "meaning": "Queue",
+    "note": "先入れ先出しのデータ構造"
+  },
+  {
+    "key": "配列",
+    "meaning": "Array",
+    "note": "同じ型のデータを並べた構造"
+  },
+  {
+    "key": "リスト",
+    "meaning": "List",
+    "note": "要素を順に管理するデータ構造"
+  },
+  {
+    "key": "探索",
+    "meaning": "Search",
+    "note": "目的のデータを見つける処理"
+  },
+  {
+    "key": "線形探索",
+    "meaning": "Linear Search",
+    "note": "先頭から順に探す探索方法"
+  },
+  {
+    "key": "二分探索",
+    "meaning": "Binary Search",
+    "note": "範囲を半分に分けて探す探索方法"
+  },
+  {
+    "key": "ソート",
+    "meaning": "Sort",
+    "note": "データを順序付ける処理"
+  },
+  {
+    "key": "バブルソート",
+    "meaning": "Bubble Sort",
+    "note": "隣同士を比較する単純なソート"
+  },
+  {
+    "key": "クイックソート",
+    "meaning": "Quick Sort",
+    "note": "基準値で分割する高速なソート"
+  },
+  {
+    "key": "ハッシュ",
+    "meaning": "Hash",
+    "note": "データを高速に検索する仕組み"
+  },
+  {
+    "key": "暗号化",
+    "meaning": "Encryption",
+    "note": "データを第三者に読めなくする技術"
+  },
+  {
+    "key": "共通鍵暗号",
+    "meaning": "Symmetric Key Encryption",
+    "note": "同じ鍵で暗号化・復号する方式"
+  },
+  {
+    "key": "公開鍵暗号",
+    "meaning": "Public Key Encryption",
+    "note": "公開鍵と秘密鍵を使う暗号方式"
+  },
+  {
+    "key": "認証",
+    "meaning": "Authentication",
+    "note": "利用者が正しいか確認する"
+  },
+  {
+    "key": "認可",
+    "meaning": "Authorization",
+    "note": "操作の権限を与えること"
+  },
+  {
+    "key": "ファイアウォール",
+    "meaning": "Firewall",
+    "note": "不正通信を遮断する仕組み"
+  },
+  {
+    "key": "マルウェア",
+    "meaning": "Malware",
+    "note": "悪意のあるソフトウェア"
+  },
+  {
+    "key": "ウイルス",
+    "meaning": "Virus",
+    "note": "自己増殖する不正プログラム"
+  },
+  {
+    "key": "バックアップ",
+    "meaning": "Backup",
+    "note": "データを予備として保存する"
+  },
+  {
+    "key": "フェイルセーフ",
+    "meaning": "Fail Safe",
+    "note": "故障時も安全を保つ設計"
+  },
+  {
+    "key": "冗長化",
+    "meaning": "Redundancy",
+    "note": "故障に備えて予備を持つ構成"
+  },
+  {
+    "key": "クラウド",
+    "meaning": "Cloud",
+    "note": "インターネット経由で資源を利用する形態"
+  },
+  {
+    "key": "SaaS",
+    "meaning": "Software as a Service",
+    "note": "ソフトウェアをサービスとして提供"
+  },
+  {
+    "key": "PaaS",
+    "meaning": "Platform as a Service",
+    "note": "アプリ実行環境を提供するサービス"
+  },
+  {
+    "key": "IaaS",
+    "meaning": "Infrastructure as a Service",
+    "note": "仮想サーバなど基盤を提供する"
+  },
+  {
+    "key": "ネットワーク",
+    "meaning": "Network",
+    "note": "複数の機器を接続して通信する仕組み"
+  },
+  {
+    "key": "OSI参照モデル",
+    "meaning": "OSI Reference Model",
+    "note": "通信機能を7階層で整理したモデル"
+  },
+  {
+    "key": "TCP/IPモデル",
+    "meaning": "TCP/IP Model",
+    "note": "インターネットで使われる通信モデル"
+  },
+  {
+    "key": "物理層",
+    "meaning": "Physical Layer",
+    "note": "電気信号やコネクタなど物理的接続"
+  },
+  {
+    "key": "データリンク層",
+    "meaning": "Data Link Layer",
+    "note": "隣接ノード間の通信制御"
+  },
+  {
+    "key": "ネットワーク層",
+    "meaning": "Network Layer",
+    "note": "IPアドレスによる経路制御"
+  },
+  {
+    "key": "トランスポート層",
+    "meaning": "Transport Layer",
+    "note": "通信の信頼性制御"
+  },
+  {
+    "key": "セッション層",
+    "meaning": "Session Layer",
+    "note": "通信の開始と終了を管理"
+  },
+  {
+    "key": "プレゼンテーション層",
+    "meaning": "Presentation Layer",
+    "note": "データ形式や暗号化"
+  },
+  {
+    "key": "アプリケーション層",
+    "meaning": "Application Layer",
+    "note": "アプリケーション向け通信機能"
+  },
+  {
+    "key": "IPアドレス",
+    "meaning": "IP Address",
+    "note": "ネットワーク上の識別番号"
+  },
+  {
+    "key": "IPv4",
+    "meaning": "IPv4",
+    "note": "32ビットのIPアドレス方式"
+  },
+  {
+    "key": "IPv6",
+    "meaning": "IPv6",
+    "note": "128ビットのIPアドレス方式"
+  },
+  {
+    "key": "サブネットマスク",
+    "meaning": "Subnet Mask",
+    "note": "ネットワーク部とホスト部の識別"
+  },
+  {
+    "key": "CIDR",
+    "meaning": "CIDR",
+    "note": "IPアドレスを効率的に割り当てる方式"
+  },
+  {
+    "key": "グローバルIP",
+    "meaning": "Global IP Address",
+    "note": "インターネット上で一意のIP"
+  },
+  {
+    "key": "プライベートIP",
+    "meaning": "Private IP Address",
+    "note": "組織内で使用するIPアドレス"
+  },
+  {
+    "key": "NAT",
+    "meaning": "NAT",
+    "note": "プライベートIPとグローバルIPの変換"
+  },
+  {
+    "key": "ルータ",
+    "meaning": "Router",
+    "note": "異なるネットワークを中継する機器"
+  },
+  {
+    "key": "スイッチ",
+    "meaning": "Switch",
+    "note": "同一ネットワーク内で通信を中継"
+  },
+  {
+    "key": "ハブ",
+    "meaning": "Hub",
+    "note": "受信データを全ポートに転送する機器"
+  },
+  {
+    "key": "MACアドレス",
+    "meaning": "MAC Address",
+    "note": "ネットワーク機器固有の識別子"
+  },
+  {
+    "key": "ARP",
+    "meaning": "ARP",
+    "note": "IPアドレスからMACアドレスを取得"
+  },
+  {
+    "key": "ICMP",
+    "meaning": "ICMP",
+    "note": "通信エラー通知用プロトコル"
+  },
+  {
+    "key": "Ping",
+    "meaning": "Ping",
+    "note": "通信確認用コマンド"
+  },
+  {
+    "key": "TCP",
+    "meaning": "TCP",
+    "note": "信頼性のある通信プロトコル"
+  },
+  {
+    "key": "UDP",
+    "meaning": "UDP",
+    "note": "高速だが信頼性の低い通信プロトコル"
+  },
+  {
+    "key": "ポート番号",
+    "meaning": "Port Number",
+    "note": "アプリケーションを識別する番号"
+  },
+  {
+    "key": "HTTP",
+    "meaning": "HTTP",
+    "note": "Web通信に使用されるプロトコル"
+  },
+  {
+    "key": "HTTPS",
+    "meaning": "HTTPS",
+    "note": "暗号化されたHTTP通信"
+  },
+  {
+    "key": "FTP",
+    "meaning": "FTP",
+    "note": "ファイル転送用プロトコル"
+  },
+  {
+    "key": "SFTP",
+    "meaning": "SFTP",
+    "note": "安全なファイル転送プロトコル"
+  },
+  {
+    "key": "SMTP",
+    "meaning": "SMTP",
+    "note": "メール送信用プロトコル"
+  },
+  {
+    "key": "POP3",
+    "meaning": "POP3",
+    "note": "メール受信用プロトコル"
+  },
+  {
+    "key": "IMAP",
+    "meaning": "IMAP",
+    "note": "サーバ上でメール管理する受信方式"
+  },
+  {
+    "key": "DNS",
+    "meaning": "DNS",
+    "note": "ドメイン名をIPアドレスに変換"
+  },
+  {
+    "key": "DHCP",
+    "meaning": "DHCP",
+    "note": "IPアドレスを自動割当する仕組み"
+  },
+  {
+    "key": "SNMP",
+    "meaning": "SNMP",
+    "note": "ネットワーク機器管理用プロトコル"
+  },
+  {
+    "key": "Telnet",
+    "meaning": "Telnet",
+    "note": "リモート接続用（暗号化なし）"
+  },
+  {
+    "key": "SSH",
+    "meaning": "SSH",
+    "note": "暗号化されたリモート接続"
+  },
+  {
+    "key": "LAN",
+    "meaning": "LAN",
+    "note": "限定範囲のネットワーク"
+  },
+  {
+    "key": "WAN",
+    "meaning": "WAN",
+    "note": "広域ネットワーク"
+  },
+  {
+    "key": "MAN",
+    "meaning": "MAN",
+    "note": "都市規模ネットワーク"
+  },
+  {
+    "key": "VPN",
+    "meaning": "VPN",
+    "note": "仮想的な専用通信網"
+  },
+  {
+    "key": "インターネット",
+    "meaning": "Internet",
+    "note": "世界規模のネットワーク"
+  },
+  {
+    "key": "イントラネット",
+    "meaning": "Intranet",
+    "note": "組織内専用ネットワーク"
+  },
+  {
+    "key": "エクストラネット",
+    "meaning": "Extranet",
+    "note": "外部と安全に接続するネットワーク"
+  },
+  {
+    "key": "帯域幅",
+    "meaning": "Bandwidth",
+    "note": "通信速度の上限"
+  },
+  {
+    "key": "スループット",
+    "meaning": "Throughput",
+    "note": "実際の通信速度"
+  },
+  {
+    "key": "レイテンシ",
+    "meaning": "Latency",
+    "note": "通信遅延時間"
+  },
+  {
+    "key": "パケット",
+    "meaning": "Packet",
+    "note": "分割された通信データ単位"
+  },
+  {
+    "key": "フレーム",
+    "meaning": "Frame",
+    "note": "データリンク層の通信単位"
+  },
+  {
+    "key": "MTU",
+    "meaning": "MTU",
+    "note": "一度に送信できる最大サイズ"
+  },
+  {
+    "key": "再送制御",
+    "meaning": "Retransmission",
+    "note": "通信失敗時に再送する制御"
+  },
+  {
+    "key": "フロー制御",
+    "meaning": "Flow Control",
+    "note": "受信側に合わせて送信速度調整"
+  },
+  {
+    "key": "輻輳制御",
+    "meaning": "Congestion Control",
+    "note": "ネットワーク混雑を防ぐ制御"
+  },
+  {
+    "key": "ブロードキャスト",
+    "meaning": "Broadcast",
+    "note": "全端末への同時送信"
+  },
+  {
+    "key": "マルチキャスト",
+    "meaning": "Multicast",
+    "note": "特定グループへの送信"
+  },
+  {
+    "key": "ユニキャスト",
+    "meaning": "Unicast",
+    "note": "特定相手への送信"
+  },
+  {
+    "key": "QoS",
+    "meaning": "QoS",
+    "note": "通信品質を制御する仕組み"
+  },
+  {
+    "key": "ファイアウォール",
+    "meaning": "Firewall",
+    "note": "不正通信を遮断する装置"
+  },
+  {
+    "key": "DMZ",
+    "meaning": "DMZ",
+    "note": "外部公開用の中間ネットワーク"
+  },
+  {
+    "key": "プロキシ",
+    "meaning": "Proxy",
+    "note": "通信を中継するサーバ"
+  },
+  {
+    "key": "リバースプロキシ",
+    "meaning": "Reverse Proxy",
+    "note": "サーバ側で通信を中継"
+  },
+  {
+    "key": "ロードバランサ",
+    "meaning": "Load Balancer",
+    "note": "通信負荷を分散する装置"
+  },
+  {
+    "key": "データベース",
+    "meaning": "Database",
+    "note": "データを体系的に保存・管理する仕組み"
+  },
+  {
+    "key": "DBMS",
+    "meaning": "Database Management System",
+    "note": "データベース管理ソフト"
+  },
+  {
+    "key": "RDB",
+    "meaning": "Relational Database",
+    "note": "表形式で管理するデータベース"
+  },
+  {
+    "key": "RDBMS",
+    "meaning": "Relational DBMS",
+    "note": "関係データベース管理システム"
+  },
+  {
+    "key": "テーブル",
+    "meaning": "Table",
+    "note": "行と列で構成されるデータ集合"
+  },
+  {
+    "key": "レコード",
+    "meaning": "Record",
+    "note": "テーブルの1行"
+  },
+  {
+    "key": "フィールド",
+    "meaning": "Field",
+    "note": "テーブルの1列"
+  },
+  {
+    "key": "カラム",
+    "meaning": "Column",
+    "note": "フィールドと同義"
+  },
+  {
+    "key": "行",
+    "meaning": "Row",
+    "note": "レコードと同義"
+  },
+  {
+    "key": "列",
+    "meaning": "Column",
+    "note": "フィールドと同義"
+  },
+  {
+    "key": "主キー",
+    "meaning": "Primary Key",
+    "note": "レコードを一意に識別するキー"
+  },
+  {
+    "key": "外部キー",
+    "meaning": "Foreign Key",
+    "note": "他テーブルの主キーを参照するキー"
+  },
+  {
+    "key": "複合キー",
+    "meaning": "Composite Key",
+    "note": "複数列で構成されるキー"
+  },
+  {
+    "key": "候補キー",
+    "meaning": "Candidate Key",
+    "note": "主キー候補となるキー"
+  },
+  {
+    "key": "一意キー",
+    "meaning": "Unique Key",
+    "note": "重複を許さないキー"
+  },
+  {
+    "key": "NULL",
+    "meaning": "NULL",
+    "note": "値が存在しないこと"
+  },
+  {
+    "key": "制約",
+    "meaning": "Constraint",
+    "note": "データの整合性を保つ規則"
+  },
+  {
+    "key": "NOT NULL",
+    "meaning": "NOT NULL",
+    "note": "空値を禁止する制約"
+  },
+  {
+    "key": "参照整合性",
+    "meaning": "Referential Integrity",
+    "note": "外部キーの整合性"
+  },
+  {
+    "key": "正規化",
+    "meaning": "Normalization",
+    "note": "データの重複を排除する設計手法"
+  },
+  {
+    "key": "第1正規形",
+    "meaning": "First Normal Form",
+    "note": "繰り返し属性を排除"
+  },
+  {
+    "key": "第2正規形",
+    "meaning": "Second Normal Form",
+    "note": "部分関数従属を排除"
+  },
+  {
+    "key": "第3正規形",
+    "meaning": "Third Normal Form",
+    "note": "推移関数従属を排除"
+  },
+  {
+    "key": "非正規化",
+    "meaning": "Denormalization",
+    "note": "性能向上のため正規化を崩す"
+  },
+  {
+    "key": "ER図",
+    "meaning": "Entity Relationship Diagram",
+    "note": "データ構造を表す図"
+  },
+  {
+    "key": "エンティティ",
+    "meaning": "Entity",
+    "note": "管理対象となる実体"
+  },
+  {
+    "key": "属性",
+    "meaning": "Attribute",
+    "note": "エンティティの性質"
+  },
+  {
+    "key": "リレーション",
+    "meaning": "Relation",
+    "note": "テーブル間の関係"
+  },
+  {
+    "key": "カーディナリティ",
+    "meaning": "Cardinality",
+    "note": "関係の多重度"
+  },
+  {
+    "key": "SQL",
+    "meaning": "Structured Query Language",
+    "note": "DB操作用言語"
+  },
+  {
+    "key": "DDL",
+    "meaning": "Data Definition Language",
+    "note": "表定義を行うSQL"
+  },
+  {
+    "key": "DML",
+    "meaning": "Data Manipulation Language",
+    "note": "データ操作を行うSQL"
+  },
+  {
+    "key": "DCL",
+    "meaning": "Data Control Language",
+    "note": "権限制御を行うSQL"
+  },
+  {
+    "key": "SELECT",
+    "meaning": "SELECT",
+    "note": "データ検索"
+  },
+  {
+    "key": "INSERT",
+    "meaning": "INSERT",
+    "note": "データ追加"
+  },
+  {
+    "key": "UPDATE",
+    "meaning": "UPDATE",
+    "note": "データ更新"
+  },
+  {
+    "key": "DELETE",
+    "meaning": "DELETE",
+    "note": "データ削除"
+  },
+  {
+    "key": "WHERE",
+    "meaning": "WHERE",
+    "note": "条件指定"
+  },
+  {
+    "key": "ORDER BY",
+    "meaning": "ORDER BY",
+    "note": "並び替え"
+  },
+  {
+    "key": "GROUP BY",
+    "meaning": "GROUP BY",
+    "note": "集約単位指定"
+  },
+  {
+    "key": "HAVING",
+    "meaning": "HAVING",
+    "note": "集約後条件指定"
+  },
+  {
+    "key": "JOIN",
+    "meaning": "JOIN",
+    "note": "テーブル結合"
+  },
+  {
+    "key": "INNER JOIN",
+    "meaning": "INNER JOIN",
+    "note": "一致する行のみ結合"
+  },
+  {
+    "key": "LEFT JOIN",
+    "meaning": "LEFT JOIN",
+    "note": "左表基準で結合"
+  },
+  {
+    "key": "RIGHT JOIN",
+    "meaning": "RIGHT JOIN",
+    "note": "右表基準で結合"
+  },
+  {
+    "key": "FULL JOIN",
+    "meaning": "FULL JOIN",
+    "note": "両表の全行を結合"
+  },
+  {
+    "key": "サブクエリ",
+    "meaning": "Subquery",
+    "note": "SQL内に書くSQL"
+  },
+  {
+    "key": "ビュー",
+    "meaning": "View",
+    "note": "仮想テーブル"
+  },
+  {
+    "key": "インデックス",
+    "meaning": "Index",
+    "note": "検索高速化用構造"
+  },
+  {
+    "key": "B-tree",
+    "meaning": "B-tree",
+    "note": "代表的なインデックス構造"
+  },
+  {
+    "key": "ハッシュインデックス",
+    "meaning": "Hash Index",
+    "note": "ハッシュ方式の索引"
+  },
+  {
+    "key": "トランザクション",
+    "meaning": "Transaction",
+    "note": "一連の処理単位"
+  },
+  {
+    "key": "ACID",
+    "meaning": "ACID",
+    "note": "原子性・一貫性・独立性・耐久性"
+  },
+  {
+    "key": "コミット",
+    "meaning": "Commit",
+    "note": "処理を確定"
+  },
+  {
+    "key": "ロールバック",
+    "meaning": "Rollback",
+    "note": "処理を取り消す"
+  },
+  {
+    "key": "排他制御",
+    "meaning": "Locking",
+    "note": "同時更新を防ぐ制御"
+  },
+  {
+    "key": "ロック",
+    "meaning": "Lock",
+    "note": "排他制御の仕組み"
+  },
+  {
+    "key": "デッドロック",
+    "meaning": "Deadlock",
+    "note": "互いに待ち続ける状態"
+  },
+  {
+    "key": "分離レベル",
+    "meaning": "Isolation Level",
+    "note": "同時実行制御の厳密さ"
+  },
+  {
+    "key": "READ UNCOMMITTED",
+    "meaning": "Read Uncommitted",
+    "note": "最も弱い分離レベル"
+  },
+  {
+    "key": "READ COMMITTED",
+    "meaning": "Read Committed",
+    "note": "確定データのみ読み取り"
+  },
+  {
+    "key": "REPEATABLE READ",
+    "meaning": "Repeatable Read",
+    "note": "再読込でも同一結果"
+  },
+  {
+    "key": "SERIALIZABLE",
+    "meaning": "Serializable",
+    "note": "最も厳密な分離レベル"
+  },
+  {
+    "key": "バックアップ",
+    "meaning": "Backup",
+    "note": "データの予備保存"
+  },
+  {
+    "key": "リストア",
+    "meaning": "Restore",
+    "note": "バックアップから復元"
+  },
+  {
+    "key": "レプリケーション",
+    "meaning": "Replication",
+    "note": "データ複製"
+  },
+  {
+    "key": "シャーディング",
+    "meaning": "Sharding",
+    "note": "データ分割配置"
+  },
+  {
+    "key": "スキーマ",
+    "meaning": "Schema",
+    "note": "データベースの構造定義"
+  },
+  {
+    "key": "情報セキュリティ",
+    "meaning": "Information Security",
+    "note": "情報を安全に守るための考え方"
+  },
+  {
+    "key": "機密性",
+    "meaning": "Confidentiality",
+    "note": "許可された人だけが情報にアクセスできる性質"
+  },
+  {
+    "key": "完全性",
+    "meaning": "Integrity",
+    "note": "情報が正確で改ざんされていない性質"
+  },
+  {
+    "key": "可用性",
+    "meaning": "Availability",
+    "note": "必要なときに情報を利用できる性質"
+  },
+  {
+    "key": "CIA",
+    "meaning": "CIA Triad",
+    "note": "機密性・完全性・可用性の3要素"
+  },
+  {
+    "key": "認証",
+    "meaning": "Authentication",
+    "note": "利用者が正しいか確認すること"
+  },
+  {
+    "key": "認可",
+    "meaning": "Authorization",
+    "note": "利用者に操作権限を与えること"
+  },
+  {
+    "key": "アクセス制御",
+    "meaning": "Access Control",
+    "note": "利用者の操作を制限する仕組み"
+  },
+  {
+    "key": "多要素認証",
+    "meaning": "MFA",
+    "note": "複数の要素を用いた認証方式"
+  },
+  {
+    "key": "パスワード",
+    "meaning": "Password",
+    "note": "本人確認のための秘密情報"
+  },
+  {
+    "key": "ワンタイムパスワード",
+    "meaning": "OTP",
+    "note": "一度だけ有効なパスワード"
+  },
+  {
+    "key": "生体認証",
+    "meaning": "Biometric Authentication",
+    "note": "身体的特徴による認証"
+  },
+  {
+    "key": "公開鍵暗号",
+    "meaning": "Public Key Cryptography",
+    "note": "公開鍵と秘密鍵を用いる暗号方式"
+  },
+  {
+    "key": "共通鍵暗号",
+    "meaning": "Symmetric Key Cryptography",
+    "note": "同一鍵で暗号化と復号を行う方式"
+  },
+  {
+    "key": "ハッシュ関数",
+    "meaning": "Hash Function",
+    "note": "不可逆な変換を行う関数"
+  },
+  {
+    "key": "デジタル署名",
+    "meaning": "Digital Signature",
+    "note": "改ざん防止と本人確認の仕組み"
+  },
+  {
+    "key": "SSL",
+    "meaning": "SSL",
+    "note": "通信を暗号化する仕組み"
+  },
+  {
+    "key": "TLS",
+    "meaning": "TLS",
+    "note": "SSLを改良した暗号化通信プロトコル"
+  },
+  {
+    "key": "HTTPS",
+    "meaning": "HTTPS",
+    "note": "TLSを用いたHTTP通信"
+  },
+  {
+    "key": "VPN",
+    "meaning": "VPN",
+    "note": "仮想的な専用通信路"
+  },
+  {
+    "key": "IPsec",
+    "meaning": "IPsec",
+    "note": "IPレベルで通信を暗号化"
+  },
+  {
+    "key": "ファイアウォール",
+    "meaning": "Firewall",
+    "note": "不正な通信を遮断する装置"
+  },
+  {
+    "key": "パケットフィルタリング",
+    "meaning": "Packet Filtering",
+    "note": "通信内容を条件で制御"
+  },
+  {
+    "key": "アプリケーションゲートウェイ",
+    "meaning": "Application Gateway",
+    "note": "アプリ層で通信を制御"
+  },
+  {
+    "key": "DMZ",
+    "meaning": "DMZ",
+    "note": "外部公開用の中間ネットワーク"
+  },
+  {
+    "key": "IDS",
+    "meaning": "IDS",
+    "note": "侵入検知システム"
+  },
+  {
+    "key": "IPS",
+    "meaning": "IPS",
+    "note": "侵入防止システム"
+  },
+  {
+    "key": "WAF",
+    "meaning": "WAF",
+    "note": "Webアプリ専用防御装置"
+  },
+  {
+    "key": "マルウェア",
+    "meaning": "Malware",
+    "note": "悪意のあるソフトウェアの総称"
+  },
+  {
+    "key": "ウイルス",
+    "meaning": "Virus",
+    "note": "自己増殖するマルウェア"
+  },
+  {
+    "key": "ワーム",
+    "meaning": "Worm",
+    "note": "ネットワーク経由で拡散するマルウェア"
+  },
+  {
+    "key": "トロイの木馬",
+    "meaning": "Trojan Horse",
+    "note": "有用なソフトを装う不正プログラム"
+  },
+  {
+    "key": "スパイウェア",
+    "meaning": "Spyware",
+    "note": "情報を盗み出すマルウェア"
+  },
+  {
+    "key": "ランサムウェア",
+    "meaning": "Ransomware",
+    "note": "身代金を要求するマルウェア"
+  },
+  {
+    "key": "標的型攻撃",
+    "meaning": "Targeted Attack",
+    "note": "特定組織を狙う攻撃"
+  },
+  {
+    "key": "DoS攻撃",
+    "meaning": "DoS",
+    "note": "サービス停止を狙う攻撃"
+  },
+  {
+    "key": "DDoS攻撃",
+    "meaning": "DDoS",
+    "note": "多数端末からのDoS攻撃"
+  },
+  {
+    "key": "フィッシング",
+    "meaning": "Phishing",
+    "note": "偽装して情報を盗む攻撃"
+  },
+  {
+    "key": "ソーシャルエンジニアリング",
+    "meaning": "Social Engineering",
+    "note": "人の心理を突く攻撃"
+  },
+  {
+    "key": "クロスサイトスクリプティング",
+    "meaning": "XSS",
+    "note": "Web脆弱性の一種"
+  },
+  {
+    "key": "SQLインジェクション",
+    "meaning": "SQL Injection",
+    "note": "SQLを不正実行させる攻撃"
+  },
+  {
+    "key": "CSRF",
+    "meaning": "CSRF",
+    "note": "意図しない操作をさせる攻撃"
+  },
+  {
+    "key": "ブルートフォース攻撃",
+    "meaning": "Brute Force",
+    "note": "総当たりでパスワードを試す攻撃"
+  },
+  {
+    "key": "辞書攻撃",
+    "meaning": "Dictionary Attack",
+    "note": "単語リストを使う攻撃"
+  },
+  {
+    "key": "脆弱性",
+    "meaning": "Vulnerability",
+    "note": "攻撃される弱点"
+  },
+  {
+    "key": "ゼロデイ攻撃",
+    "meaning": "Zero-day Attack",
+    "note": "修正前の脆弱性を狙う攻撃"
+  },
+  {
+    "key": "セキュリティパッチ",
+    "meaning": "Security Patch",
+    "note": "脆弱性修正プログラム"
+  },
+  {
+    "key": "アップデート",
+    "meaning": "Update",
+    "note": "ソフトウェアの更新"
+  },
+  {
+    "key": "ログ",
+    "meaning": "Log",
+    "note": "操作やイベントの記録"
+  },
+  {
+    "key": "監査ログ",
+    "meaning": "Audit Log",
+    "note": "不正検知用のログ"
+  },
+  {
+    "key": "インシデント",
+    "meaning": "Incident",
+    "note": "セキュリティ事故"
+  },
+  {
+    "key": "インシデント対応",
+    "meaning": "Incident Response",
+    "note": "事故発生時の対応"
+  },
+  {
+    "key": "リスク",
+    "meaning": "Risk",
+    "note": "被害が発生する可能性"
+  },
+  {
+    "key": "リスク分析",
+    "meaning": "Risk Analysis",
+    "note": "リスクを評価する作業"
+  },
+  {
+    "key": "リスク対策",
+    "meaning": "Risk Treatment",
+    "note": "リスクを低減する対応"
+  },
+  {
+    "key": "BCP",
+    "meaning": "Business Continuity Plan",
+    "note": "事業継続計画"
+  },
+  {
+    "key": "DR",
+    "meaning": "Disaster Recovery",
+    "note": "災害復旧対策"
+  },
+  {
+    "key": "バックアップ",
+    "meaning": "Backup",
+    "note": "データの予備保存"
+  },
+  {
+    "key": "アクセスログ",
+    "meaning": "Access Log",
+    "note": "アクセス履歴の記録"
+  },
+  {
+    "key": "最小権限の原則",
+    "meaning": "Principle of Least Privilege",
+    "note": "必要最小限の権限付与"
+  },
+  {
+    "key": "アルゴリズム",
+    "meaning": "Algorithm",
+    "note": "問題を解決するための手順"
+  },
+  {
+    "key": "処理手順",
+    "meaning": "Procedure",
+    "note": "処理の流れを示したもの"
+  },
+  {
+    "key": "擬似言語",
+    "meaning": "Pseudocode",
+    "note": "アルゴリズムを表す簡易記法"
+  },
+  {
+    "key": "フローチャート",
+    "meaning": "Flowchart",
+    "note": "処理手順を図で表したもの"
+  },
+  {
+    "key": "入力",
+    "meaning": "Input",
+    "note": "アルゴリズムに与えるデータ"
+  },
+  {
+    "key": "出力",
+    "meaning": "Output",
+    "note": "処理結果として得られるデータ"
+  },
+  {
+    "key": "計算量",
+    "meaning": "Computational Complexity",
+    "note": "処理に必要な資源量の指標"
+  },
+  {
+    "key": "時間計算量",
+    "meaning": "Time Complexity",
+    "note": "処理時間の増加傾向"
+  },
+  {
+    "key": "空間計算量",
+    "meaning": "Space Complexity",
+    "note": "使用メモリ量の増加傾向"
+  },
+  {
+    "key": "ビッグオー記法",
+    "meaning": "Big-O Notation",
+    "note": "計算量を表す記法"
+  },
+  {
+    "key": "最悪計算量",
+    "meaning": "Worst Case",
+    "note": "最も時間がかかる場合"
+  },
+  {
+    "key": "平均計算量",
+    "meaning": "Average Case",
+    "note": "平均的な処理時間"
+  },
+  {
+    "key": "最良計算量",
+    "meaning": "Best Case",
+    "note": "最も早く終わる場合"
+  },
+  {
+    "key": "線形探索",
+    "meaning": "Linear Search",
+    "note": "先頭から順に探す探索方法"
+  },
+  {
+    "key": "二分探索",
+    "meaning": "Binary Search",
+    "note": "範囲を半分に分けて探す探索"
+  },
+  {
+    "key": "探索",
+    "meaning": "Search",
+    "note": "目的のデータを見つける処理"
+  },
+  {
+    "key": "ソート",
+    "meaning": "Sort",
+    "note": "データを並び替える処理"
+  },
+  {
+    "key": "安定ソート",
+    "meaning": "Stable Sort",
+    "note": "同値要素の順序を保つソート"
+  },
+  {
+    "key": "不安定ソート",
+    "meaning": "Unstable Sort",
+    "note": "同値要素の順序を保たないソート"
+  },
+  {
+    "key": "バブルソート",
+    "meaning": "Bubble Sort",
+    "note": "隣接要素を交換する単純なソート"
+  },
+  {
+    "key": "選択ソート",
+    "meaning": "Selection Sort",
+    "note": "最小値を選んで並べるソート"
+  },
+  {
+    "key": "挿入ソート",
+    "meaning": "Insertion Sort",
+    "note": "挿入しながら整列するソート"
+  },
+  {
+    "key": "クイックソート",
+    "meaning": "Quick Sort",
+    "note": "分割統治を用いる高速ソート"
+  },
+  {
+    "key": "マージソート",
+    "meaning": "Merge Sort",
+    "note": "分割して統合するソート"
+  },
+  {
+    "key": "ヒープソート",
+    "meaning": "Heap Sort",
+    "note": "ヒープ構造を用いたソート"
+  },
+  {
+    "key": "配列",
+    "meaning": "Array",
+    "note": "連続領域に格納するデータ構造"
+  },
+  {
+    "key": "リスト",
+    "meaning": "List",
+    "note": "要素を順につなげた構造"
+  },
+  {
+    "key": "連結リスト",
+    "meaning": "Linked List",
+    "note": "ポインタで要素をつなぐリスト"
+  },
+  {
+    "key": "スタック",
+    "meaning": "Stack",
+    "note": "後入れ先出しの構造"
+  },
+  {
+    "key": "キュー",
+    "meaning": "Queue",
+    "note": "先入れ先出しの構造"
+  },
+  {
+    "key": "デック",
+    "meaning": "Deque",
+    "note": "両端から追加削除できるキュー"
+  },
+  {
+    "key": "木構造",
+    "meaning": "Tree",
+    "note": "階層関係を持つデータ構造"
+  },
+  {
+    "key": "二分木",
+    "meaning": "Binary Tree",
+    "note": "各ノードが2子まで持つ木"
+  },
+  {
+    "key": "二分探索木",
+    "meaning": "Binary Search Tree",
+    "note": "大小関係を持つ二分木"
+  },
+  {
+    "key": "平衡木",
+    "meaning": "Balanced Tree",
+    "note": "高さを抑えた木構造"
+  },
+  {
+    "key": "ヒープ",
+    "meaning": "Heap",
+    "note": "特定条件を満たす完全二分木"
+  },
+  {
+    "key": "グラフ",
+    "meaning": "Graph",
+    "note": "点と辺で関係を表す構造"
+  },
+  {
+    "key": "ノード",
+    "meaning": "Node",
+    "note": "データ構造の要素"
+  },
+  {
+    "key": "エッジ",
+    "meaning": "Edge",
+    "note": "ノード間の接続"
+  },
+  {
+    "key": "有向グラフ",
+    "meaning": "Directed Graph",
+    "note": "向きを持つグラフ"
+  },
+  {
+    "key": "無向グラフ",
+    "meaning": "Undirected Graph",
+    "note": "向きを持たないグラフ"
+  },
+  {
+    "key": "隣接リスト",
+    "meaning": "Adjacency List",
+    "note": "グラフ表現方法の一つ"
+  },
+  {
+    "key": "隣接行列",
+    "meaning": "Adjacency Matrix",
+    "note": "行列で表すグラフ構造"
+  },
+  {
+    "key": "再帰",
+    "meaning": "Recursion",
+    "note": "処理の中で自分自身を呼ぶ手法"
+  },
+  {
+    "key": "再帰呼出し",
+    "meaning": "Recursive Call",
+    "note": "関数が自分を呼び出すこと"
+  },
+  {
+    "key": "終了条件",
+    "meaning": "Base Case",
+    "note": "再帰を終える条件"
+  },
+  {
+    "key": "分割統治法",
+    "meaning": "Divide and Conquer",
+    "note": "問題を分割して解く手法"
+  },
+  {
+    "key": "動的計画法",
+    "meaning": "Dynamic Programming",
+    "note": "部分問題の結果を再利用"
+  },
+  {
+    "key": "貪欲法",
+    "meaning": "Greedy Algorithm",
+    "note": "局所最適を選択する手法"
+  },
+  {
+    "key": "バックトラック",
+    "meaning": "Backtracking",
+    "note": "条件を満たさない場合に戻る探索"
+  },
+  {
+    "key": "全探索",
+    "meaning": "Brute Force",
+    "note": "全ての組合せを調べる方法"
+  },
+  {
+    "key": "ハッシュ",
+    "meaning": "Hash",
+    "note": "データを高速に検索する仕組み"
+  },
+  {
+    "key": "ハッシュ関数",
+    "meaning": "Hash Function",
+    "note": "キーを数値に変換する関数"
+  },
+  {
+    "key": "ハッシュ表",
+    "meaning": "Hash Table",
+    "note": "ハッシュを用いた表構造"
+  },
+  {
+    "key": "衝突",
+    "meaning": "Collision",
+    "note": "同じハッシュ値になること"
+  },
+  {
+    "key": "オープンアドレス法",
+    "meaning": "Open Addressing",
+    "note": "衝突解決法の一つ"
+  },
+  {
+    "key": "チェイン法",
+    "meaning": "Chaining",
+    "note": "衝突時にリストで管理"
+  },
+  {
+    "key": "キューイング理論",
+    "meaning": "Queueing Theory",
+    "note": "待ち行列を扱う理論"
+  },
+  {
+    "key": "オペレーティングシステム",
+    "meaning": "Operating System",
+    "note": "ハードウェアとアプリを管理する基本ソフト"
+  },
+  {
+    "key": "OS",
+    "meaning": "Operating System",
+    "note": "オペレーティングシステムの略"
+  },
+  {
+    "key": "カーネル",
+    "meaning": "Kernel",
+    "note": "OSの中核部分"
+  },
+  {
+    "key": "ユーザモード",
+    "meaning": "User Mode",
+    "note": "制限付きで動作する実行モード"
+  },
+  {
+    "key": "カーネルモード",
+    "meaning": "Kernel Mode",
+    "note": "ハードウェア制御が可能な実行モード"
+  },
+  {
+    "key": "プロセス",
+    "meaning": "Process",
+    "note": "実行中のプログラム"
+  },
+  {
+    "key": "スレッド",
+    "meaning": "Thread",
+    "note": "プロセス内の実行単位"
+  },
+  {
+    "key": "マルチプロセス",
+    "meaning": "Multiprocess",
+    "note": "複数プロセスを同時実行"
+  },
+  {
+    "key": "マルチスレッド",
+    "meaning": "Multithread",
+    "note": "複数スレッドを同時実行"
+  },
+  {
+    "key": "プリエンプション",
+    "meaning": "Preemption",
+    "note": "実行中プロセスを強制中断"
+  },
+  {
+    "key": "スケジューリング",
+    "meaning": "Scheduling",
+    "note": "CPU割当を制御する仕組み"
+  },
+  {
+    "key": "ラウンドロビン",
+    "meaning": "Round Robin",
+    "note": "順番にCPUを割り当てる方式"
+  },
+  {
+    "key": "優先度スケジューリング",
+    "meaning": "Priority Scheduling",
+    "note": "優先度に基づく割当方式"
+  },
+  {
+    "key": "コンテキストスイッチ",
+    "meaning": "Context Switch",
+    "note": "実行状態の切替"
+  },
+  {
+    "key": "割込み",
+    "meaning": "Interrupt",
+    "note": "処理を一時中断させる信号"
+  },
+  {
+    "key": "例外",
+    "meaning": "Exception",
+    "note": "異常事態発生時の制御移行"
+  },
+  {
+    "key": "システムコール",
+    "meaning": "System Call",
+    "note": "アプリからOS機能を呼ぶ仕組み"
+  },
+  {
+    "key": "メモリ管理",
+    "meaning": "Memory Management",
+    "note": "主記憶を管理する機能"
+  },
+  {
+    "key": "主記憶",
+    "meaning": "Main Memory",
+    "note": "CPUが直接アクセスする記憶装置"
+  },
+  {
+    "key": "補助記憶",
+    "meaning": "Auxiliary Storage",
+    "note": "HDDやSSDなどの記憶装置"
+  },
+  {
+    "key": "仮想記憶",
+    "meaning": "Virtual Memory",
+    "note": "補助記憶を主記憶のように扱う仕組み"
+  },
+  {
+    "key": "ページ",
+    "meaning": "Page",
+    "note": "仮想記憶の管理単位"
+  },
+  {
+    "key": "ページング",
+    "meaning": "Paging",
+    "note": "ページ単位で管理する方式"
+  },
+  {
+    "key": "セグメンテーション",
+    "meaning": "Segmentation",
+    "note": "論理単位で管理する方式"
+  },
+  {
+    "key": "スワップ",
+    "meaning": "Swap",
+    "note": "補助記憶と主記憶を入替える処理"
+  },
+  {
+    "key": "キャッシュ",
+    "meaning": "Cache",
+    "note": "高速アクセス用の一時記憶"
+  },
+  {
+    "key": "キャッシュメモリ",
+    "meaning": "Cache Memory",
+    "note": "CPUと主記憶間の高速記憶"
+  },
+  {
+    "key": "ライトスルー",
+    "meaning": "Write Through",
+    "note": "即時に主記憶へ反映する方式"
+  },
+  {
+    "key": "ライトバック",
+    "meaning": "Write Back",
+    "note": "後で主記憶へ反映する方式"
+  },
+  {
+    "key": "TLB",
+    "meaning": "TLB",
+    "note": "アドレス変換を高速化するバッファ"
+  },
+  {
+    "key": "ファイルシステム",
+    "meaning": "File System",
+    "note": "ファイル管理方式"
+  },
+  {
+    "key": "ディレクトリ",
+    "meaning": "Directory",
+    "note": "ファイルをまとめる仕組み"
+  },
+  {
+    "key": "パス",
+    "meaning": "Path",
+    "note": "ファイルの場所を示す表記"
+  },
+  {
+    "key": "絶対パス",
+    "meaning": "Absolute Path",
+    "note": "ルートから指定するパス"
+  },
+  {
+    "key": "相対パス",
+    "meaning": "Relative Path",
+    "note": "現在位置基準のパス"
+  },
+  {
+    "key": "アクセス権",
+    "meaning": "Access Permission",
+    "note": "ファイル操作の許可設定"
+  },
+  {
+    "key": "読み取り",
+    "meaning": "Read",
+    "note": "ファイル内容を読む権限"
+  },
+  {
+    "key": "書き込み",
+    "meaning": "Write",
+    "note": "ファイル内容を変更する権限"
+  },
+  {
+    "key": "実行",
+    "meaning": "Execute",
+    "note": "プログラム実行権限"
+  },
+  {
+    "key": "デバイスドライバ",
+    "meaning": "Device Driver",
+    "note": "周辺機器制御用ソフト"
+  },
+  {
+    "key": "I/O",
+    "meaning": "Input Output",
+    "note": "入出力処理"
+  },
+  {
+    "key": "バッファ",
+    "meaning": "Buffer",
+    "note": "データを一時的に蓄える領域"
+  },
+  {
+    "key": "スプーリング",
+    "meaning": "Spooling",
+    "note": "入出力を効率化する仕組み"
+  },
+  {
+    "key": "CPU",
+    "meaning": "Central Processing Unit",
+    "note": "演算と制御を行う中枢装置"
+  },
+  {
+    "key": "クロック周波数",
+    "meaning": "Clock Frequency",
+    "note": "CPU動作速度の指標"
+  },
+  {
+    "key": "コア",
+    "meaning": "Core",
+    "note": "CPU内の処理単位"
+  },
+  {
+    "key": "マルチコア",
+    "meaning": "Multicore",
+    "note": "複数コアを持つCPU"
+  },
+  {
+    "key": "パイプライン",
+    "meaning": "Pipeline",
+    "note": "処理を分割して高速化"
+  },
+  {
+    "key": "RISC",
+    "meaning": "RISC",
+    "note": "簡素な命令セットCPU"
+  },
+  {
+    "key": "CISC",
+    "meaning": "CISC",
+    "note": "複雑な命令セットCPU"
+  },
+  {
+    "key": "GPU",
+    "meaning": "GPU",
+    "note": "画像処理に特化したプロセッサ"
+  },
+  {
+    "key": "FPU",
+    "meaning": "FPU",
+    "note": "浮動小数点演算装置"
+  },
+  {
+    "key": "RAM",
+    "meaning": "RAM",
+    "note": "作業用の揮発性メモリ"
+  },
+  {
+    "key": "ROM",
+    "meaning": "ROM",
+    "note": "不揮発性メモリ"
+  },
+  {
+    "key": "DRAM",
+    "meaning": "DRAM",
+    "note": "主記憶に使われるメモリ"
+  },
+  {
+    "key": "SRAM",
+    "meaning": "SRAM",
+    "note": "高速キャッシュ用メモリ"
+  },
+  {
+    "key": "HDD",
+    "meaning": "Hard Disk Drive",
+    "note": "磁気ディスク装置"
+  },
+  {
+    "key": "SSD",
+    "meaning": "Solid State Drive",
+    "note": "半導体記憶装置"
+  },
+  {
+    "key": "セクタ",
+    "meaning": "Sector",
+    "note": "ディスクの最小記憶単位"
+  },
+  {
+    "key": "ブロック",
+    "meaning": "Block",
+    "note": "ファイルシステムの管理単位"
+  },
+  {
+    "key": "システム",
+    "meaning": "System",
+    "note": "目的を達成するための構成要素の集合"
+  },
+  {
+    "key": "情報システム",
+    "meaning": "Information System",
+    "note": "情報処理を行うシステム"
+  },
+  {
+    "key": "業務システム",
+    "meaning": "Business System",
+    "note": "業務を支援するためのシステム"
+  },
+  {
+    "key": "クライアント",
+    "meaning": "Client",
+    "note": "サービスを利用する側"
+  },
+  {
+    "key": "サーバ",
+    "meaning": "Server",
+    "note": "サービスを提供する側"
+  },
+  {
+    "key": "クライアントサーバ方式",
+    "meaning": "Client Server Model",
+    "note": "役割分担によるシステム構成"
+  },
+  {
+    "key": "三層構造",
+    "meaning": "Three-tier Architecture",
+    "note": "プレゼン・アプリ・DBの3層構成"
+  },
+  {
+    "key": "プレゼンテーション層",
+    "meaning": "Presentation Layer",
+    "note": "画面やUIを担当"
+  },
+  {
+    "key": "アプリケーション層",
+    "meaning": "Application Layer",
+    "note": "業務ロジックを担当"
+  },
+  {
+    "key": "データ層",
+    "meaning": "Data Layer",
+    "note": "データ管理を担当"
+  },
+  {
+    "key": "集中処理",
+    "meaning": "Centralized Processing",
+    "note": "一箇所で処理を行う方式"
+  },
+  {
+    "key": "分散処理",
+    "meaning": "Distributed Processing",
+    "note": "処理を分散して行う方式"
+  },
+  {
+    "key": "クラスタ",
+    "meaning": "Cluster",
+    "note": "複数サーバを一体として動作"
+  },
+  {
+    "key": "スケールアップ",
+    "meaning": "Scale Up",
+    "note": "性能向上のため機器を強化"
+  },
+  {
+    "key": "スケールアウト",
+    "meaning": "Scale Out",
+    "note": "台数を増やして性能向上"
+  },
+  {
+    "key": "冗長化",
+    "meaning": "Redundancy",
+    "note": "故障に備えて予備を持つ構成"
+  },
+  {
+    "key": "フェイルオーバー",
+    "meaning": "Failover",
+    "note": "障害時に自動切替"
+  },
+  {
+    "key": "フェイルバック",
+    "meaning": "Failback",
+    "note": "復旧後に元へ戻す"
+  },
+  {
+    "key": "ロードバランサ",
+    "meaning": "Load Balancer",
+    "note": "負荷を分散する装置"
+  },
+  {
+    "key": "ホットスタンバイ",
+    "meaning": "Hot Standby",
+    "note": "即時切替可能な待機構成"
+  },
+  {
+    "key": "コールドスタンバイ",
+    "meaning": "Cold Standby",
+    "note": "起動が必要な待機構成"
+  },
+  {
+    "key": "可用性",
+    "meaning": "Availability",
+    "note": "利用可能な度合い"
+  },
+  {
+    "key": "信頼性",
+    "meaning": "Reliability",
+    "note": "安定して動作する性質"
+  },
+  {
+    "key": "保守性",
+    "meaning": "Maintainability",
+    "note": "修正や保守のしやすさ"
+  },
+  {
+    "key": "拡張性",
+    "meaning": "Scalability",
+    "note": "将来拡張のしやすさ"
+  },
+  {
+    "key": "要件定義",
+    "meaning": "Requirements Definition",
+    "note": "システム要件を明確化"
+  },
+  {
+    "key": "機能要件",
+    "meaning": "Functional Requirements",
+    "note": "システムの機能面要件"
+  },
+  {
+    "key": "非機能要件",
+    "meaning": "Non-functional Requirements",
+    "note": "性能や信頼性などの要件"
+  },
+  {
+    "key": "基本設計",
+    "meaning": "Basic Design",
+    "note": "外部仕様を定める設計"
+  },
+  {
+    "key": "詳細設計",
+    "meaning": "Detailed Design",
+    "note": "内部処理を定める設計"
+  },
+  {
+    "key": "内部設計",
+    "meaning": "Internal Design",
+    "note": "詳細設計と同義"
+  },
+  {
+    "key": "外部設計",
+    "meaning": "External Design",
+    "note": "基本設計と同義"
+  },
+  {
+    "key": "プログラミング",
+    "meaning": "Programming",
+    "note": "ソースコードを書く工程"
+  },
+  {
+    "key": "コーディング",
+    "meaning": "Coding",
+    "note": "プログラムを記述する作業"
+  },
+  {
+    "key": "ビルド",
+    "meaning": "Build",
+    "note": "ソースを実行形式に変換"
+  },
+  {
+    "key": "結合テスト",
+    "meaning": "Integration Test",
+    "note": "モジュール間の動作確認"
+  },
+  {
+    "key": "単体テスト",
+    "meaning": "Unit Test",
+    "note": "個々のモジュールを検証"
+  },
+  {
+    "key": "システムテスト",
+    "meaning": "System Test",
+    "note": "全体としての検証"
+  },
+  {
+    "key": "受入テスト",
+    "meaning": "Acceptance Test",
+    "note": "利用者による確認"
+  },
+  {
+    "key": "ブラックボックステスト",
+    "meaning": "Black-box Test",
+    "note": "内部構造を考慮しないテスト"
+  },
+  {
+    "key": "ホワイトボックステスト",
+    "meaning": "White-box Test",
+    "note": "内部構造を考慮するテスト"
+  },
+  {
+    "key": "テストケース",
+    "meaning": "Test Case",
+    "note": "テスト内容をまとめたもの"
+  },
+  {
+    "key": "デバッグ",
+    "meaning": "Debug",
+    "note": "バグを修正する作業"
+  },
+  {
+    "key": "レビュー",
+    "meaning": "Review",
+    "note": "成果物を確認する作業"
+  },
+  {
+    "key": "ウォーターフォール",
+    "meaning": "Waterfall Model",
+    "note": "工程を順に進める開発手法"
+  },
+  {
+    "key": "Vモデル",
+    "meaning": "V-model",
+    "note": "テスト対応を重視したモデル"
+  },
+  {
+    "key": "アジャイル",
+    "meaning": "Agile",
+    "note": "柔軟に進める開発手法"
+  },
+  {
+    "key": "スクラム",
+    "meaning": "Scrum",
+    "note": "代表的なアジャイル手法"
+  },
+  {
+    "key": "スプリント",
+    "meaning": "Sprint",
+    "note": "短期間の開発サイクル"
+  },
+  {
+    "key": "バックログ",
+    "meaning": "Backlog",
+    "note": "作業項目の一覧"
+  },
+  {
+    "key": "リリース",
+    "meaning": "Release",
+    "note": "システム公開"
+  },
+  {
+    "key": "移行",
+    "meaning": "Migration",
+    "note": "旧システムから切替"
+  },
+  {
+    "key": "運用",
+    "meaning": "Operation",
+    "note": "稼働中システム管理"
+  },
+  {
+    "key": "保守",
+    "meaning": "Maintenance",
+    "note": "修正・改善作業"
+  },
+  {
+    "key": "障害対応",
+    "meaning": "Incident Handling",
+    "note": "障害発生時の対応"
+  },
+  {
+    "key": "変更管理",
+    "meaning": "Change Management",
+    "note": "変更内容を管理"
+  },
+  {
+    "key": "構成管理",
+    "meaning": "Configuration Management",
+    "note": "構成情報を管理"
+  },
+  {
+    "key": "バージョン管理",
+    "meaning": "Version Control",
+    "note": "履歴を管理する仕組み"
+  },
+  {
+    "key": "クラウドコンピューティング",
+    "meaning": "Cloud Computing",
+    "note": "ネットワーク経由でIT資源を利用する形態"
+  },
+  {
+    "key": "オンプレミス",
+    "meaning": "On-Premises",
+    "note": "自社内に機器を設置して運用"
+  },
+  {
+    "key": "パブリッククラウド",
+    "meaning": "Public Cloud",
+    "note": "外部事業者が提供するクラウド"
+  },
+  {
+    "key": "プライベートクラウド",
+    "meaning": "Private Cloud",
+    "note": "特定組織専用のクラウド"
+  },
+  {
+    "key": "ハイブリッドクラウド",
+    "meaning": "Hybrid Cloud",
+    "note": "複数クラウドを組み合わせる構成"
+  },
+  {
+    "key": "マルチクラウド",
+    "meaning": "Multi Cloud",
+    "note": "複数事業者のクラウドを利用"
+  },
+  {
+    "key": "仮想化",
+    "meaning": "Virtualization",
+    "note": "物理資源を論理的に分割する技術"
+  },
+  {
+    "key": "ハイパーバイザ",
+    "meaning": "Hypervisor",
+    "note": "仮想マシンを管理するソフト"
+  },
+  {
+    "key": "ホストOS",
+    "meaning": "Host OS",
+    "note": "仮想環境の基盤となるOS"
+  },
+  {
+    "key": "ゲストOS",
+    "meaning": "Guest OS",
+    "note": "仮想マシン上で動作するOS"
+  },
+  {
+    "key": "仮想マシン",
+    "meaning": "Virtual Machine",
+    "note": "仮想的な計算機"
+  },
+  {
+    "key": "コンテナ",
+    "meaning": "Container",
+    "note": "軽量な仮想実行環境"
+  },
+  {
+    "key": "Docker",
+    "meaning": "Docker",
+    "note": "代表的なコンテナ技術"
+  },
+  {
+    "key": "Kubernetes",
+    "meaning": "Kubernetes",
+    "note": "コンテナ管理ツール"
+  },
+  {
+    "key": "VMware",
+    "meaning": "VMware",
+    "note": "仮想化ソフトウェア"
+  },
+  {
+    "key": "仮想CPU",
+    "meaning": "Virtual CPU",
+    "note": "仮想マシン用CPU"
+  },
+  {
+    "key": "仮想メモリ",
+    "meaning": "Virtual Memory",
+    "note": "仮想環境で使うメモリ"
+  },
+  {
+    "key": "仮想ストレージ",
+    "meaning": "Virtual Storage",
+    "note": "仮想化された記憶装置"
+  },
+  {
+    "key": "スナップショット",
+    "meaning": "Snapshot",
+    "note": "仮想環境の状態保存"
+  },
+  {
+    "key": "ライブマイグレーション",
+    "meaning": "Live Migration",
+    "note": "稼働中の仮想マシン移動"
+  },
+  {
+    "key": "クラウドサービス",
+    "meaning": "Cloud Service",
+    "note": "クラウド上で提供されるサービス"
+  },
+  {
+    "key": "IaaS",
+    "meaning": "IaaS",
+    "note": "仮想サーバなど基盤提供"
+  },
+  {
+    "key": "PaaS",
+    "meaning": "PaaS",
+    "note": "アプリ実行環境提供"
+  },
+  {
+    "key": "SaaS",
+    "meaning": "SaaS",
+    "note": "ソフトウェア提供形態"
+  },
+  {
+    "key": "FaaS",
+    "meaning": "FaaS",
+    "note": "関数単位で実行するサービス"
+  },
+  {
+    "key": "サーバレス",
+    "meaning": "Serverless",
+    "note": "サーバ管理不要の実行形態"
+  },
+  {
+    "key": "仮想ネットワーク",
+    "meaning": "Virtual Network",
+    "note": "仮想的なネットワーク構成"
+  },
+  {
+    "key": "VPC",
+    "meaning": "Virtual Private Cloud",
+    "note": "仮想専用ネットワーク"
+  },
+  {
+    "key": "サブネット",
+    "meaning": "Subnet",
+    "note": "ネットワーク分割単位"
+  },
+  {
+    "key": "セキュリティグループ",
+    "meaning": "Security Group",
+    "note": "通信制御ルール"
+  },
+  {
+    "key": "IAM",
+    "meaning": "IAM",
+    "note": "ユーザと権限の管理"
+  },
+  {
+    "key": "リージョン",
+    "meaning": "Region",
+    "note": "クラウド拠点の地域"
+  },
+  {
+    "key": "アベイラビリティゾーン",
+    "meaning": "Availability Zone",
+    "note": "障害分離された拠点"
+  },
+  {
+    "key": "オートスケーリング",
+    "meaning": "Auto Scaling",
+    "note": "負荷に応じた自動増減"
+  },
+  {
+    "key": "ロードバランシング",
+    "meaning": "Load Balancing",
+    "note": "通信負荷分散"
+  },
+  {
+    "key": "冗長構成",
+    "meaning": "Redundant Configuration",
+    "note": "障害対策構成"
+  },
+  {
+    "key": "バックアップ",
+    "meaning": "Backup",
+    "note": "データの予備保存"
+  },
+  {
+    "key": "スナップショットバックアップ",
+    "meaning": "Snapshot Backup",
+    "note": "状態保存によるバックアップ"
+  },
+  {
+    "key": "DR",
+    "meaning": "Disaster Recovery",
+    "note": "災害復旧対策"
+  },
+  {
+    "key": "BCP",
+    "meaning": "Business Continuity Plan",
+    "note": "事業継続計画"
+  },
+  {
+    "key": "クラウドストレージ",
+    "meaning": "Cloud Storage",
+    "note": "オンライン記憶領域"
+  },
+  {
+    "key": "オブジェクトストレージ",
+    "meaning": "Object Storage",
+    "note": "オブジェクト単位で管理"
+  },
+  {
+    "key": "ブロックストレージ",
+    "meaning": "Block Storage",
+    "note": "ブロック単位の記憶装置"
+  },
+  {
+    "key": "ファイルストレージ",
+    "meaning": "File Storage",
+    "note": "ファイル共有型ストレージ"
+  },
+  {
+    "key": "耐障害性",
+    "meaning": "Fault Tolerance",
+    "note": "障害に耐える性質"
+  },
+  {
+    "key": "可用性",
+    "meaning": "Availability",
+    "note": "利用可能な度合い"
+  },
+  {
+    "key": "SLA",
+    "meaning": "SLA",
+    "note": "サービス品質保証"
+  },
+  {
+    "key": "従量課金",
+    "meaning": "Pay-as-you-go",
+    "note": "使った分だけ支払う方式"
+  },
+  {
+    "key": "リソース",
+    "meaning": "Resource",
+    "note": "CPUやメモリなどの資源"
+  },
+  {
+    "key": "プロビジョニング",
+    "meaning": "Provisioning",
+    "note": "資源の割当"
+  },
+  {
+    "key": "Infrastructure as Code",
+    "meaning": "IaC",
+    "note": "コードによる構成管理"
+  },
+  {
+    "key": "Terraform",
+    "meaning": "Terraform",
+    "note": "IaCツール"
+  },
+  {
+    "key": "CloudFormation",
+    "meaning": "CloudFormation",
+    "note": "AWSのIaCツール"
+  },
+  {
+    "key": "モニタリング",
+    "meaning": "Monitoring",
+    "note": "稼働状況の監視"
+  },
+  {
+    "key": "ログ管理",
+    "meaning": "Log Management",
+    "note": "ログの収集・管理"
+  },
+  {
+    "key": "メトリクス",
+    "meaning": "Metrics",
+    "note": "性能指標"
+  },
+  {
+    "key": "ソフトウェア工学",
+    "meaning": "Software Engineering",
+    "note": "体系的にソフトウェアを開発する学問"
+  },
+  {
+    "key": "ソフトウェア",
+    "meaning": "Software",
+    "note": "プログラムと関連データの総称"
+  },
+  {
+    "key": "ハードウェア",
+    "meaning": "Hardware",
+    "note": "物理的な機器"
+  },
+  {
+    "key": "ライフサイクル",
+    "meaning": "Software Life Cycle",
+    "note": "開発から廃棄までの流れ"
+  },
+  {
+    "key": "要求分析",
+    "meaning": "Requirement Analysis",
+    "note": "要求を整理・分析する工程"
+  },
+  {
+    "key": "要件定義",
+    "meaning": "Requirements Definition",
+    "note": "システム要件を明確化"
+  },
+  {
+    "key": "基本設計",
+    "meaning": "Basic Design",
+    "note": "外部仕様を定める設計"
+  },
+  {
+    "key": "詳細設計",
+    "meaning": "Detailed Design",
+    "note": "内部仕様を定める設計"
+  },
+  {
+    "key": "外部設計",
+    "meaning": "External Design",
+    "note": "基本設計と同義"
+  },
+  {
+    "key": "内部設計",
+    "meaning": "Internal Design",
+    "note": "詳細設計と同義"
+  },
+  {
+    "key": "モジュール",
+    "meaning": "Module",
+    "note": "独立した機能単位"
+  },
+  {
+    "key": "コンポーネント",
+    "meaning": "Component",
+    "note": "再利用可能な部品"
+  },
+  {
+    "key": "インタフェース",
+    "meaning": "Interface",
+    "note": "接続点の仕様"
+  },
+  {
+    "key": "API",
+    "meaning": "API",
+    "note": "機能を外部に公開する仕組み"
+  },
+  {
+    "key": "再利用",
+    "meaning": "Reuse",
+    "note": "既存部品の活用"
+  },
+  {
+    "key": "保守性",
+    "meaning": "Maintainability",
+    "note": "修正しやすさ"
+  },
+  {
+    "key": "可読性",
+    "meaning": "Readability",
+    "note": "コードの読みやすさ"
+  },
+  {
+    "key": "拡張性",
+    "meaning": "Scalability",
+    "note": "機能追加のしやすさ"
+  },
+  {
+    "key": "結合度",
+    "meaning": "Coupling",
+    "note": "モジュール間の依存度"
+  },
+  {
+    "key": "凝集度",
+    "meaning": "Cohesion",
+    "note": "モジュール内の関連度"
+  },
+  {
+    "key": "低結合",
+    "meaning": "Loose Coupling",
+    "note": "依存関係が弱い設計"
+  },
+  {
+    "key": "高凝集",
+    "meaning": "High Cohesion",
+    "note": "役割が明確な設計"
+  },
+  {
+    "key": "抽象化",
+    "meaning": "Abstraction",
+    "note": "本質のみを取り出す"
+  },
+  {
+    "key": "カプセル化",
+    "meaning": "Encapsulation",
+    "note": "内部を隠蔽する設計"
+  },
+  {
+    "key": "情報隠蔽",
+    "meaning": "Information Hiding",
+    "note": "内部実装を隠す原則"
+  },
+  {
+    "key": "継承",
+    "meaning": "Inheritance",
+    "note": "機能を引き継ぐ仕組み"
+  },
+  {
+    "key": "多態性",
+    "meaning": "Polymorphism",
+    "note": "同一操作で異なる動作"
+  },
+  {
+    "key": "オブジェクト指向",
+    "meaning": "Object-Oriented",
+    "note": "オブジェクト中心設計"
+  },
+  {
+    "key": "クラス",
+    "meaning": "Class",
+    "note": "オブジェクトの設計図"
+  },
+  {
+    "key": "インスタンス",
+    "meaning": "Instance",
+    "note": "クラスから生成された実体"
+  },
+  {
+    "key": "メソッド",
+    "meaning": "Method",
+    "note": "クラスの振る舞い"
+  },
+  {
+    "key": "属性",
+    "meaning": "Attribute",
+    "note": "オブジェクトの性質"
+  },
+  {
+    "key": "UML",
+    "meaning": "UML",
+    "note": "設計を表現する図法"
+  },
+  {
+    "key": "クラス図",
+    "meaning": "Class Diagram",
+    "note": "クラス構造を表す"
+  },
+  {
+    "key": "シーケンス図",
+    "meaning": "Sequence Diagram",
+    "note": "処理の流れを表す"
+  },
+  {
+    "key": "ユースケース図",
+    "meaning": "Use Case Diagram",
+    "note": "利用者視点の機能図"
+  },
+  {
+    "key": "状態遷移図",
+    "meaning": "State Transition Diagram",
+    "note": "状態変化を表す図"
+  },
+  {
+    "key": "デザインパターン",
+    "meaning": "Design Pattern",
+    "note": "設計の定石"
+  },
+  {
+    "key": "MVC",
+    "meaning": "MVC",
+    "note": "モデル・ビュー・コントローラ分離"
+  },
+  {
+    "key": "Singleton",
+    "meaning": "Singleton",
+    "note": "唯一のインスタンスを持つ"
+  },
+  {
+    "key": "Factory",
+    "meaning": "Factory",
+    "note": "生成処理をまとめる"
+  },
+  {
+    "key": "Observer",
+    "meaning": "Observer",
+    "note": "状態変化を通知"
+  },
+  {
+    "key": "Strategy",
+    "meaning": "Strategy",
+    "note": "アルゴリズム切替"
+  },
+  {
+    "key": "Adapter",
+    "meaning": "Adapter",
+    "note": "既存IFを変換"
+  },
+  {
+    "key": "Facade",
+    "meaning": "Facade",
+    "note": "複雑さを隠す窓口"
+  },
+  {
+    "key": "依存性注入",
+    "meaning": "Dependency Injection",
+    "note": "依存関係を外部から与える"
+  },
+  {
+    "key": "DI",
+    "meaning": "DI",
+    "note": "依存性注入の略"
+  },
+  {
+    "key": "SOLID原則",
+    "meaning": "SOLID Principles",
+    "note": "設計の5原則"
+  },
+  {
+    "key": "単一責任原則",
+    "meaning": "SRP",
+    "note": "クラスは1責任"
+  },
+  {
+    "key": "オープンクローズド原則",
+    "meaning": "OCP",
+    "note": "拡張に開き修正に閉じる"
+  },
+  {
+    "key": "リスコフ置換原則",
+    "meaning": "LSP",
+    "note": "派生は基底と置換可能"
+  },
+  {
+    "key": "インタフェース分離原則",
+    "meaning": "ISP",
+    "note": "必要なIFだけ持つ"
+  },
+  {
+    "key": "依存関係逆転原則",
+    "meaning": "DIP",
+    "note": "抽象に依存する"
+  },
+  {
+    "key": "リファクタリング",
+    "meaning": "Refactoring",
+    "note": "外部仕様を変えず改善"
+  },
+  {
+    "key": "技術的負債",
+    "meaning": "Technical Debt",
+    "note": "後回しによる負債"
+  },
+  {
+    "key": "テスト",
+    "meaning": "Test",
+    "note": "システムが正しく動作するか確認する作業"
+  },
+  {
+    "key": "品質",
+    "meaning": "Quality",
+    "note": "要求を満たす度合い"
+  },
+  {
+    "key": "品質特性",
+    "meaning": "Quality Characteristics",
+    "note": "品質を評価する観点"
+  },
+  {
+    "key": "機能性",
+    "meaning": "Functionality",
+    "note": "要求された機能を満たす性質"
+  },
+  {
+    "key": "信頼性",
+    "meaning": "Reliability",
+    "note": "安定して動作する性質"
+  },
+  {
+    "key": "使用性",
+    "meaning": "Usability",
+    "note": "使いやすさ"
+  },
+  {
+    "key": "効率性",
+    "meaning": "Efficiency",
+    "note": "資源を無駄なく使う性質"
+  },
+  {
+    "key": "保守性",
+    "meaning": "Maintainability",
+    "note": "修正や改善のしやすさ"
+  },
+  {
+    "key": "移植性",
+    "meaning": "Portability",
+    "note": "他環境へ移しやすさ"
+  },
+  {
+    "key": "テスト計画",
+    "meaning": "Test Plan",
+    "note": "テスト方針や範囲の計画"
+  },
+  {
+    "key": "テスト設計",
+    "meaning": "Test Design",
+    "note": "テスト内容の設計"
+  },
+  {
+    "key": "テストケース",
+    "meaning": "Test Case",
+    "note": "テストの入力と期待結果"
+  },
+  {
+    "key": "単体テスト",
+    "meaning": "Unit Test",
+    "note": "個々のモジュールのテスト"
+  },
+  {
+    "key": "結合テスト",
+    "meaning": "Integration Test",
+    "note": "モジュール間のテスト"
+  },
+  {
+    "key": "システムテスト",
+    "meaning": "System Test",
+    "note": "全体動作のテスト"
+  },
+  {
+    "key": "受入テスト",
+    "meaning": "Acceptance Test",
+    "note": "利用者が行う最終確認"
+  },
+  {
+    "key": "回帰テスト",
+    "meaning": "Regression Test",
+    "note": "修正後の再テスト"
+  },
+  {
+    "key": "ブラックボックステスト",
+    "meaning": "Black-box Test",
+    "note": "内部構造を考慮しないテスト"
+  },
+  {
+    "key": "ホワイトボックステスト",
+    "meaning": "White-box Test",
+    "note": "内部構造を考慮するテスト"
+  },
+  {
+    "key": "同値分割",
+    "meaning": "Equivalence Partitioning",
+    "note": "入力をグループ化する手法"
+  },
+  {
+    "key": "境界値分析",
+    "meaning": "Boundary Value Analysis",
+    "note": "境界条件を重点的にテスト"
+  },
+  {
+    "key": "網羅率",
+    "meaning": "Coverage",
+    "note": "テストがどれだけ実行されたか"
+  },
+  {
+    "key": "命令網羅",
+    "meaning": "Statement Coverage",
+    "note": "全命令を実行"
+  },
+  {
+    "key": "分岐網羅",
+    "meaning": "Branch Coverage",
+    "note": "全分岐を実行"
+  },
+  {
+    "key": "条件網羅",
+    "meaning": "Condition Coverage",
+    "note": "全条件を評価"
+  },
+  {
+    "key": "パス網羅",
+    "meaning": "Path Coverage",
+    "note": "全経路を実行"
+  },
+  {
+    "key": "バグ",
+    "meaning": "Bug",
+    "note": "プログラムの不具合"
+  },
+  {
+    "key": "欠陥",
+    "meaning": "Defect",
+    "note": "仕様との差異"
+  },
+  {
+    "key": "障害",
+    "meaning": "Fault",
+    "note": "運用中に発生する不具合"
+  },
+  {
+    "key": "デバッグ",
+    "meaning": "Debug",
+    "note": "バグを修正する作業"
+  },
+  {
+    "key": "ログ",
+    "meaning": "Log",
+    "note": "処理履歴の記録"
+  },
+  {
+    "key": "エラーログ",
+    "meaning": "Error Log",
+    "note": "エラー情報の記録"
+  },
+  {
+    "key": "監視",
+    "meaning": "Monitoring",
+    "note": "システム状態の監視"
+  },
+  {
+    "key": "アラート",
+    "meaning": "Alert",
+    "note": "異常通知"
+  },
+  {
+    "key": "性能テスト",
+    "meaning": "Performance Test",
+    "note": "処理性能の評価"
+  },
+  {
+    "key": "負荷テスト",
+    "meaning": "Load Test",
+    "note": "高負荷時の動作確認"
+  },
+  {
+    "key": "ストレステスト",
+    "meaning": "Stress Test",
+    "note": "限界超過時の動作確認"
+  },
+  {
+    "key": "可用性テスト",
+    "meaning": "Availability Test",
+    "note": "停止しにくさの確認"
+  },
+  {
+    "key": "耐障害性",
+    "meaning": "Fault Tolerance",
+    "note": "障害に耐える性質"
+  },
+  {
+    "key": "冗長化",
+    "meaning": "Redundancy",
+    "note": "故障に備えた構成"
+  },
+  {
+    "key": "バックアップ",
+    "meaning": "Backup",
+    "note": "データの予備保存"
+  },
+  {
+    "key": "リストア",
+    "meaning": "Restore",
+    "note": "バックアップから復元"
+  },
+  {
+    "key": "運用",
+    "meaning": "Operation",
+    "note": "システム稼働中の管理"
+  },
+  {
+    "key": "保守",
+    "meaning": "Maintenance",
+    "note": "修正や改善作業"
+  },
+  {
+    "key": "運用設計",
+    "meaning": "Operation Design",
+    "note": "運用方法の設計"
+  },
+  {
+    "key": "手順書",
+    "meaning": "Runbook",
+    "note": "運用手順をまとめた文書"
+  },
+  {
+    "key": "障害対応",
+    "meaning": "Incident Response",
+    "note": "障害発生時の対応"
+  },
+  {
+    "key": "インシデント",
+    "meaning": "Incident",
+    "note": "運用中の問題事象"
+  },
+  {
+    "key": "エスカレーション",
+    "meaning": "Escalation",
+    "note": "上位担当へ引継ぐこと"
+  },
+  {
+    "key": "変更管理",
+    "meaning": "Change Management",
+    "note": "変更内容の管理"
+  },
+  {
+    "key": "構成管理",
+    "meaning": "Configuration Management",
+    "note": "構成情報の管理"
+  },
+  {
+    "key": "リリース管理",
+    "meaning": "Release Management",
+    "note": "リリースの管理"
+  },
+  {
+    "key": "SLA",
+    "meaning": "SLA",
+    "note": "サービス品質保証"
+  },
+  {
+    "key": "SLO",
+    "meaning": "SLO",
+    "note": "達成目標値"
+  },
+  {
+    "key": "KPI",
+    "meaning": "KPI",
+    "note": "業績評価指標"
+  },
+  {
+    "key": "メトリクス",
+    "meaning": "Metrics",
+    "note": "性能や状態の指標"
+  },
+  {
+    "key": "運用自動化",
+    "meaning": "Automation",
+    "note": "運用作業の自動化"
+  }
+]

@@ -1,0 +1,15 @@
+body {
+    font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
+}
+
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+#q {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
